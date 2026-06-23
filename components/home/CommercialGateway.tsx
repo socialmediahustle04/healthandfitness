@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { commercialCards } from "@/content/homepage";
+import { RevealOnScroll } from "./RevealOnScroll";
 
 export function CommercialGateway() {
   return (
@@ -19,25 +21,30 @@ export function CommercialGateway() {
         </div>
         <div className="commercial-grid">
           {commercialCards.map((card, index) => (
-            <Link className="commercial-card" href={card.href} key={card.href}>
-              <div className="commercial-art" aria-hidden="true">
-                <span className="screen-panel" />
-                <span className="product-shape" />
-                <span className="mini-card mini-card-one" />
-                <span className="mini-card mini-card-two" />
-              </div>
-              <div className="commercial-content">
-                <span className="card-badge">{card.badge}</span>
-                <h3>{card.title}</h3>
-                <p>{card.description}</p>
-                <span className="button button-secondary">
-                  {card.cta}
+            <RevealOnScroll as="div" key={card.href} delay={index * 120}>
+              <Link className="commercial-card" href={card.href}>
+                <div className="commercial-art">
+                  <Image
+                    src={card.image}
+                    alt={card.alt}
+                    fill
+                    sizes="(max-width: 720px) 100vw, 50vw"
+                    className="commercial-image"
+                  />
+                </div>
+                <div className="commercial-content">
+                  <span className="card-badge">{card.badge}</span>
+                  <h3>{card.title}</h3>
+                  <p>{card.description}</p>
+                  <span className="button button-secondary">
+                    {card.cta}
+                  </span>
+                </div>
+                <span className="commercial-index">
+                  {String(index + 1).padStart(2, "0")}
                 </span>
-              </div>
-              <span className="commercial-index">
-                {String(index + 1).padStart(2, "0")}
-              </span>
-            </Link>
+              </Link>
+            </RevealOnScroll>
           ))}
         </div>
       </div>

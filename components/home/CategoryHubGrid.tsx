@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { categoryCards } from "@/content/homepage";
+import { RevealOnScroll } from "./RevealOnScroll";
 
 export function CategoryHubGrid() {
   return (
@@ -14,16 +16,27 @@ export function CategoryHubGrid() {
           </p>
         </div>
         <div className="category-grid">
-          {categoryCards.map((card) => (
-            <Link className={`category-card tone-${card.tone}`} href={card.href} key={card.href}>
-              <div className="category-art" aria-hidden="true">
-                <span />
-              </div>
-              <div>
-                <h3>{card.title}</h3>
-                <p>{card.description}</p>
-              </div>
-            </Link>
+          {categoryCards.map((card, index) => (
+            <RevealOnScroll as="div" key={card.href} delay={(index % 3) * 90}>
+              <Link
+                className={`category-card tone-${card.tone}`}
+                href={card.href}
+              >
+                <div className="category-art">
+                  <Image
+                    src={card.image}
+                    alt={card.alt}
+                    fill
+                    sizes="(max-width: 720px) 100vw, (max-width: 1080px) 50vw, 33vw"
+                    className="category-image"
+                  />
+                </div>
+                <div>
+                  <h3>{card.title}</h3>
+                  <p>{card.description}</p>
+                </div>
+              </Link>
+            </RevealOnScroll>
           ))}
         </div>
       </div>

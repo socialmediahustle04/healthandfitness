@@ -9,7 +9,7 @@ export function HeroSection() {
           muted
           loop
           playsInline
-          poster="/media/hero-wellness-poster.jpg"
+          poster="/media/homepage/hero-desktop-16x9.png"
         >
           <source src="/media/hero-wellness.mp4" type="video/mp4" />
         </video>

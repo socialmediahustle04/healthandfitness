@@ -1,21 +1,24 @@
+import Image from "next/image";
 import Link from "next/link";
+import { RevealOnScroll } from "./RevealOnScroll";
 
 export function StartHereFeature() {
   return (
     <section className="section section-cream" aria-labelledby="start-title">
       <div className="container start-feature">
-        <div className="editorial-visual">
-          <div className="visual-frame visual-frame-large">
-            <div className="still-life-card">
-              <span className="steam" />
-              <span className="cup" />
-              <span className="journal" />
-              <span className="leaf leaf-one" />
-              <span className="leaf leaf-two" />
-            </div>
+        <RevealOnScroll className="editorial-visual" as="figure">
+          <div className="visual-frame visual-frame-large visual-frame-media">
+            <Image
+              src="/media/homepage/start-here-3x2.png"
+              alt="A calm editorial scene with a journal, tea, and natural light, marking a gentle starting point for weight loss after 40."
+              fill
+              sizes="(max-width: 720px) 100vw, 45vw"
+              className="feature-image"
+              priority={false}
+            />
           </div>
-        </div>
-        <div className="feature-copy">
+        </RevealOnScroll>
+        <RevealOnScroll className="feature-copy" delay={120}>
           <p className="eyebrow">Start here</p>
           <h2 id="start-title">
             Start here if weight loss suddenly feels harder.
@@ -39,7 +42,7 @@ export function StartHereFeature() {
           <Link className="button button-primary" href="/weight-loss-after-40">
             Read the 40+ guide
           </Link>
-        </div>
+        </RevealOnScroll>
       </div>
     </section>
   );

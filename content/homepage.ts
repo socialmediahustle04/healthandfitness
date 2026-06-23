@@ -48,40 +48,52 @@ export const categoryCards = [
     title: "Weight Loss After 40",
     href: "/weight-loss-after-40",
     description: "The core guide for women who want a realistic reset.",
-    tone: "sage"
+    tone: "sage",
+    image: "/media/homepage/category-weight-loss-after-40.png",
+    alt: "A calm morning workspace with a journal, tea, and soft natural light, representing a fresh start to weight loss after 40."
   },
   {
     title: "Metabolism & Hormones",
     href: "/categories/metabolism-hormones",
     description:
       "Understand biological changes without fear-based advice.",
-    tone: "terracotta"
+    tone: "terracotta",
+    image: "/media/homepage/category-metabolism-hormones-4x3.png",
+    alt: "Editorial still life suggesting midlife metabolism and hormone balance with warm earthy tones."
   },
   {
     title: "Sleep, Stress & Cortisol",
     href: "/categories/sleep-stress-cortisol",
     description: "Better routines, clearer science, calmer decisions.",
-    tone: "navy"
+    tone: "navy",
+    image: "/media/homepage/category-sleep-stress-cortisol-4x3.png",
+    alt: "A serene bedside scene with soft lamplight, evoking restful sleep and stress regulation."
   },
   {
     title: "Supplements & Safety",
     href: "/categories/supplements-safety",
     description:
       "Ingredient breakdowns, safety notes, and claim checks.",
-    tone: "sage"
+    tone: "sage",
+    image: "/media/homepage/category-supplements-safety-4x3.png",
+    alt: "Neatly arranged supplement bottles and a magnifying card, symbolizing careful ingredient review."
   },
   {
     title: "Programs & Reviews",
     href: "/categories/programs-reviews",
     description:
       "Compare programs by fit, cost, support, and sustainability.",
-    tone: "terracotta"
+    tone: "terracotta",
+    image: "/media/homepage/category-programs-reviews-4x3.png",
+    alt: "A curated comparison desk with notes and a laptop, representing program and product reviews."
   },
   {
     title: "Meal Plans",
     href: "/categories/meal-plans",
     description: "Simple, protein-forward plans built for real life.",
-    tone: "navy"
+    tone: "navy",
+    image: "/media/homepage/meal-plan-lead-magnet-4x5.png",
+    alt: "A balanced protein-forward meal plate with fresh ingredients, representing simple meal plans."
   }
 ];
 
@@ -101,7 +113,9 @@ export const commercialCards = [
     description:
       "Compare realistic programs by support, flexibility, price, and long-term fit.",
     cta: "Compare programs",
-    badge: "Program guide"
+    badge: "Program guide",
+    image: "/media/homepage/best-weight-loss-programs-teaser-16x10.png",
+    alt: "A comparison layout of weight-loss programs for women over 40, showing options side by side."
   },
   {
     title: "Best cortisol supplements for weight loss",
@@ -109,7 +123,9 @@ export const commercialCards = [
     description:
       "A safety-first look at ingredients, claims, pricing, and who should be cautious.",
     cta: "See supplement picks",
-    badge: "Supplement guide"
+    badge: "Supplement guide",
+    image: "/media/homepage/best-cortisol-supplements-teaser-16x10.png",
+    alt: "Cortisol supplement bottles reviewed with safety and evidence notes for stress and weight loss."
   }
 ];
 
