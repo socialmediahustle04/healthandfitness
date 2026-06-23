@@ -194,7 +194,7 @@ input {
 
 .hero-section {
   position: relative;
-  min-height: 760px;
+  min-height: 700px;
   overflow: hidden;
   background: var(--navy);
 }
@@ -223,8 +223,8 @@ input {
   z-index: 1;
   display: flex;
   align-items: center;
-  min-height: 760px;
-  padding: 90px 0;
+  min-height: 700px;
+  padding: 72px 0;
 }
 
 .hero-copy {
@@ -254,27 +254,27 @@ h3 {
 }
 
 h1 {
-  max-width: 650px;
+  max-width: 620px;
   color: var(--cream);
-  font-size: clamp(4.4rem, 9vw, 8.6rem);
-  line-height: 0.88;
+  font-size: clamp(3rem, 4.25vw, 4.9rem);
+  line-height: 0.96;
 }
 
 h2 {
-  font-size: clamp(2.4rem, 5vw, 5rem);
-  line-height: 0.94;
+  font-size: clamp(1.9rem, 2.75vw, 3.25rem);
+  line-height: 1.02;
 }
 
 h3 {
-  font-size: clamp(1.35rem, 2vw, 1.72rem);
-  line-height: 1;
+  font-size: clamp(1.22rem, 1.45vw, 1.55rem);
+  line-height: 1.08;
 }
 
 .hero-subtitle {
   max-width: 610px;
-  margin: 28px 0 0;
+  margin: 24px 0 0;
   color: rgba(255, 253, 248, 0.86);
-  font-size: clamp(1.08rem, 2vw, 1.34rem);
+  font-size: clamp(1.02rem, 1.2vw, 1.18rem);
   line-height: 1.62;
 }
 
@@ -293,11 +293,11 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  margin-top: 32px;
+  margin-top: 28px;
 }
 
 .section {
-  padding: 108px 0;
+  padding: 88px 0;
 }
 
 .section-paper {
@@ -310,7 +310,7 @@ h3 {
 
 .section-heading {
   max-width: 760px;
-  margin-bottom: 42px;
+  margin-bottom: 34px;
 }
 
 .section-heading p:not(.eyebrow),
@@ -319,8 +319,8 @@ h3 {
 .lead-copy p,
 .footer-brand p {
   color: rgba(36, 48, 68, 0.72);
-  font-size: 1.06rem;
-  line-height: 1.75;
+  font-size: 1rem;
+  line-height: 1.68;
 }
 
 .pathway-grid,
@@ -333,11 +333,11 @@ h3 {
 }
 
 .pathway-grid {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .pathway-card {
-  min-height: 260px;
+  min-height: 220px;
   padding: 24px;
   border: 1px solid rgba(27, 42, 61, 0.1);
   border-radius: var(--radius-lg);
@@ -393,12 +393,12 @@ h3 {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
   align-items: center;
-  gap: 70px;
+  gap: 56px;
 }
 
 .visual-frame {
   position: relative;
-  min-height: 520px;
+  min-height: 470px;
   border: 1px solid rgba(27, 42, 61, 0.1);
   border-radius: var(--radius-xl);
   background:
@@ -649,7 +649,7 @@ h3 {
 .commercial-card {
   position: relative;
   overflow: hidden;
-  min-height: 560px;
+  min-height: 500px;
   border: 1px solid rgba(27, 42, 61, 0.1);
   border-radius: var(--radius-xl);
   background: var(--paper);
@@ -659,7 +659,7 @@ h3 {
 
 .commercial-art {
   position: relative;
-  height: 260px;
+  height: 230px;
   overflow: hidden;
   background:
     radial-gradient(circle at 72% 26%, rgba(255, 253, 248, 0.84), transparent 13%),
@@ -784,7 +784,7 @@ h3 {
 }
 
 .latest-card {
-  min-height: 300px;
+  min-height: 270px;
   padding: 26px;
   border: 1px solid rgba(27, 42, 61, 0.1);
   border-radius: var(--radius-lg);
@@ -890,7 +890,7 @@ h3 {
 
   .hero-section,
   .hero-content {
-    min-height: 720px;
+    min-height: 620px;
   }
 
   .hero-overlay {
@@ -898,11 +898,11 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(3.4rem, 18vw, 5.2rem);
+    font-size: clamp(2.75rem, 12vw, 4rem);
   }
 
   .section {
-    padding: 76px 0;
+    padding: 64px 0;
   }
 
   .pathway-grid,
