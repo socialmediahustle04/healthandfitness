@@ -9,7 +9,6 @@ export function CommercialGateway() {
       <div className="container">
         <div className="commercial-heading">
           <div>
-            <p className="eyebrow">When you are ready</p>
             <h2 id="commercial-title">
               Research-backed comparisons, without the hard sell.
             </h2>

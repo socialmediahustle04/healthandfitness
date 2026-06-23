@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { RevealOnScroll } from "./RevealOnScroll";
+import { LeadForm } from "./LeadForm";
 
 export function LeadMagnetSection() {
   return (
@@ -23,19 +24,8 @@ export function LeadMagnetSection() {
               another random supplement.
             </p>
           </RevealOnScroll>
-          <RevealOnScroll className="lead-form" delay={120} aria-label="Weight-loss reset checklist signup">
-            <label>
-              <span>Email address</span>
-              <input type="email" name="email" placeholder="you@example.com" required />
-            </label>
-            <label>
-              <span>First name</span>
-              <input type="text" name="firstName" placeholder="Optional" />
-            </label>
-            <button className="button button-primary" type="submit">
-              Send me the checklist
-            </button>
-            <p>No spam. Unsubscribe anytime.</p>
+          <RevealOnScroll className="lead-form-wrap" delay={120}>
+            <LeadForm />
           </RevealOnScroll>
         </div>
       </div>

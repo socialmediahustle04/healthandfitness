@@ -19,7 +19,6 @@ export function StartHereFeature() {
           </div>
         </RevealOnScroll>
         <RevealOnScroll className="feature-copy" delay={120}>
-          <p className="eyebrow">Start here</p>
           <h2 id="start-title">
             Start here if weight loss suddenly feels harder.
           </h2>

@@ -6,7 +6,6 @@ export function ProblemPathwayGrid() {
     <section className="section section-paper" aria-labelledby="pathways-title">
       <div className="container">
         <div className="section-heading">
-          <p className="eyebrow">The midlife map</p>
           <h2 id="pathways-title">What changed after 40?</h2>
           <p>
             Weight loss can feel different when sleep, hormones, stress, muscle,
@@ -21,7 +20,7 @@ export function ProblemPathwayGrid() {
               </span>
               <h3>{card.title}</h3>
               <p>{card.description}</p>
-              <span className="text-link">Explore guide</span>
+              <span className="card-cta">Explore guide</span>
             </Link>
           ))}
         </div>

@@ -6,7 +6,6 @@ export function LatestGuidesGrid() {
     <section className="section section-paper" aria-labelledby="latest-title">
       <div className="container">
         <div className="section-heading">
-          <p className="eyebrow">Freshly organized</p>
           <h2 id="latest-title">Latest evidence-informed guides</h2>
           <p>
             Build your foundation first, then compare programs and supplements
@@ -24,6 +23,7 @@ export function LatestGuidesGrid() {
               <h3>{guide.title}</h3>
               <p>{guide.description}</p>
               <span className="guide-meta">{guide.readTime} • Updated 2026</span>
+              <span className="card-cta">Read guide</span>
             </Link>
           ))}
         </div>

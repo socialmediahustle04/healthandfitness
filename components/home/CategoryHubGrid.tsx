@@ -8,7 +8,6 @@ export function CategoryHubGrid() {
     <section className="section section-paper" aria-labelledby="categories-title">
       <div className="container">
         <div className="section-heading">
-          <p className="eyebrow">Find your next step</p>
           <h2 id="categories-title">Choose the path that fits where you are.</h2>
           <p>
             Every guide is built to help you understand the decision before you
@@ -34,6 +33,7 @@ export function CategoryHubGrid() {
                 <div>
                   <h3>{card.title}</h3>
                   <p>{card.description}</p>
+                  <span className="card-cta">Explore</span>
                 </div>
               </Link>
             </RevealOnScroll>
