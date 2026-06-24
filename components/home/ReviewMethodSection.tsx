@@ -13,7 +13,7 @@ export function ReviewMethodSection() {
               src="/media/homepage/how-we-review-wellness-programs-framework.webp"
               alt="Editorial review framework board explaining how wellness programs and supplements are evaluated."
               fill
-              sizes="(max-width: 720px) 100vw, 42vw"
+              sizes="(max-width: 720px) 100vw, 46vw"
               className="method-image"
             />
           </figure>
@@ -32,13 +32,16 @@ export function ReviewMethodSection() {
             See our review process
           </Link>
         </RevealOnScroll>
-        <RevealOnScroll className="criteria-grid" delay={120}>
-          {reviewCriteria.map((criterion) => (
-            <div className="criterion-card" key={criterion}>
-              <span />
-              <strong>{criterion}</strong>
-            </div>
-          ))}
+        <RevealOnScroll className="method-aside" delay={120}>
+          <p className="method-aside-label">What we evaluate</p>
+          <div className="criteria-grid">
+            {reviewCriteria.map((criterion) => (
+              <div className="criterion-card" key={criterion}>
+                <span className="criterion-dot" />
+                <strong>{criterion}</strong>
+              </div>
+            ))}
+          </div>
         </RevealOnScroll>
       </div>
     </section>
