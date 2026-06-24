@@ -9,8 +9,8 @@ export function StartHereFeature() {
         <RevealOnScroll className="editorial-visual" as="figure">
           <div className="visual-frame visual-frame-large visual-frame-media">
             <Image
-              src="/media/homepage/start-here-3x2.png"
-              alt="A calm editorial scene with a journal, tea, and natural light, marking a gentle starting point for weight loss after 40."
+              src="/media/homepage/start-here-weight-loss-after-40-checklist.webp"
+              alt="Woman over 40 reviewing a start-here checklist for realistic weight-loss support."
               fill
               sizes="(max-width: 720px) 100vw, 45vw"
               className="feature-image"

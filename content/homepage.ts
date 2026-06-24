@@ -49,8 +49,8 @@ export const categoryCards = [
     href: "/weight-loss-after-40",
     description: "The core guide for women who want a realistic reset.",
     tone: "sage",
-    image: "/media/homepage/category-weight-loss-after-40.png",
-    alt: "A calm morning workspace with a journal, tea, and soft natural light, representing a fresh start to weight loss after 40."
+    image: "/media/homepage/weight-loss-after-40-wellness-plan.webp",
+    alt: "Woman over 40 writing a practical wellness plan at a calm kitchen table."
   },
   {
     title: "Metabolism & Hormones",
@@ -58,16 +58,16 @@ export const categoryCards = [
     description:
       "Understand biological changes without fear-based advice.",
     tone: "terracotta",
-    image: "/media/homepage/category-metabolism-hormones-4x3.png",
-    alt: "Editorial still life suggesting midlife metabolism and hormone balance with warm earthy tones."
+    image: "/media/homepage/midlife-metabolism-hormones-map.webp",
+    alt: "Editorial midlife metabolism map showing sleep, hormones, stress, nutrition, movement, and protein guidance."
   },
   {
     title: "Sleep, Stress & Cortisol",
     href: "/categories/sleep-stress-cortisol",
     description: "Better routines, clearer science, calmer decisions.",
     tone: "navy",
-    image: "/media/homepage/category-sleep-stress-cortisol-4x3.png",
-    alt: "A serene bedside scene with soft lamplight, evoking restful sleep and stress regulation."
+    image: "/media/homepage/sleep-stress-cortisol-routine-checklist.webp",
+    alt: "Calm bedside routine with cortisol rhythm card and sleep checklist."
   },
   {
     title: "Supplements & Safety",
@@ -75,8 +75,8 @@ export const categoryCards = [
     description:
       "Ingredient breakdowns, safety notes, and claim checks.",
     tone: "sage",
-    image: "/media/homepage/category-supplements-safety-4x3.png",
-    alt: "Neatly arranged supplement bottles and a magnifying card, symbolizing careful ingredient review."
+    image: "/media/homepage/supplements-safety-review-checklist.webp",
+    alt: "Supplement safety checklist with ingredient notes, evidence scorecard, and research materials."
   },
   {
     title: "Programs & Reviews",
@@ -84,16 +84,16 @@ export const categoryCards = [
     description:
       "Compare programs by fit, cost, support, and sustainability.",
     tone: "terracotta",
-    image: "/media/homepage/category-programs-reviews-4x3.png",
-    alt: "A curated comparison desk with notes and a laptop, representing program and product reviews."
+    image: "/media/homepage/wellness-program-comparison-reviews.webp",
+    alt: "Wellness program comparison workspace with review cards and decision criteria."
   },
   {
     title: "Meal Plans",
     href: "/categories/meal-plans",
     description: "Simple, protein-forward plans built for real life.",
     tone: "navy",
-    image: "/media/homepage/meal-plan-lead-magnet-4x5.png",
-    alt: "A balanced protein-forward meal plate with fresh ingredients, representing simple meal plans."
+    image: "/media/homepage/protein-forward-weekly-meal-plan.webp",
+    alt: "Protein-forward weekly meal plan with balanced plate guide and simple whole-food ingredients."
   }
 ];
 
@@ -114,8 +114,8 @@ export const commercialCards = [
       "Compare realistic programs by support, flexibility, price, and long-term fit.",
     cta: "Compare programs",
     badge: "Program guide",
-    image: "/media/homepage/best-weight-loss-programs-teaser-16x10.png",
-    alt: "A comparison layout of weight-loss programs for women over 40, showing options side by side."
+    image: "/media/homepage/wellness-program-comparison-reviews.webp",
+    alt: "Wellness program comparison workspace with review cards and decision criteria."
   },
   {
     title: "Best cortisol supplements for weight loss",
@@ -124,8 +124,8 @@ export const commercialCards = [
       "A safety-first look at ingredients, claims, pricing, and who should be cautious.",
     cta: "See supplement picks",
     badge: "Supplement guide",
-    image: "/media/homepage/best-cortisol-supplements-teaser-16x10.png",
-    alt: "Cortisol supplement bottles reviewed with safety and evidence notes for stress and weight loss."
+    image: "/media/homepage/supplements-safety-review-checklist.webp",
+    alt: "Supplement safety checklist with ingredient notes, evidence scorecard, and research materials."
   }
 ];
 

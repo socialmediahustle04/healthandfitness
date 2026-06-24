@@ -10,8 +10,8 @@ export function ReviewMethodSection() {
         <RevealOnScroll className="method-intro">
           <figure className="method-figure">
             <Image
-              src="/media/homepage/how-we-review-3x2.png"
-              alt="An editor's desk with notes, a checklist, and reference materials showing how programs and supplements are reviewed."
+              src="/media/homepage/how-we-review-wellness-programs-framework.webp"
+              alt="Editorial review framework board explaining how wellness programs and supplements are evaluated."
               fill
               sizes="(max-width: 720px) 100vw, 42vw"
               className="method-image"

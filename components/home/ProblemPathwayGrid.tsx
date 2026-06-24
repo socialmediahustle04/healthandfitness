@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { pathwayCards } from "@/content/homepage";
+import { RevealOnScroll } from "./RevealOnScroll";
 
 export function ProblemPathwayGrid() {
   return (
@@ -12,6 +14,15 @@ export function ProblemPathwayGrid() {
             and daily energy all start interacting.
           </p>
         </div>
+        <RevealOnScroll className="midlife-map-figure" as="figure">
+          <Image
+            src="/media/homepage/what-changed-after-40-midlife-map.webp"
+            alt="Midlife wellness map showing metabolism, hormones, sleep, stress, protein, and supplements after 40."
+            fill
+            sizes="(max-width: 720px) 100vw, (max-width: 1080px) 100vw, 1180px"
+            className="midlife-map-image"
+          />
+        </RevealOnScroll>
         <div className="pathway-grid">
           {pathwayCards.map((card, index) => (
             <Link className="pathway-card" href={card.href} key={card.href}>
