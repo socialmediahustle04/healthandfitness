@@ -19,7 +19,7 @@ export function TrustPageLayout({
   return (
     <>
       <HomeHeader />
-      <main>
+      <main id="main-content">
         <section className="page-hero" aria-labelledby="page-hero-title">
           <div className="container page-hero-inner">
             <RevealOnScroll>

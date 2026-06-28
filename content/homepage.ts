@@ -98,12 +98,48 @@ export const categoryCards = [
 ];
 
 export const reviewCriteria = [
-  "Evidence quality",
-  "Safety notes",
-  "Cost transparency",
-  "Ease of use",
-  "Refund policy",
-  "Red flags"
+  {
+    icon: "evidence",
+    title: "Evidence quality",
+    description:
+      "We separate research-backed claims from testimonials, trend language, and sales-page certainty.",
+    checks: "Source quality, claim realism, evidence strength"
+  },
+  {
+    icon: "safety",
+    title: "Safety notes",
+    description:
+      "We look for clear cautions around medications, stimulant load, dosage, and when to ask a clinician.",
+    checks: "Interactions, dosage clarity, clinical cautions"
+  },
+  {
+    icon: "cost",
+    title: "Cost transparency",
+    description:
+      "We review the real price before checkout, including subscriptions, shipping, upsells, and hidden fees.",
+    checks: "Total cost, billing terms, cancellation friction"
+  },
+  {
+    icon: "ease",
+    title: "Ease of use",
+    description:
+      "We consider whether the routine fits real life for women over 40, not just a perfect week.",
+    checks: "Setup, instructions, support, daily effort"
+  },
+  {
+    icon: "refund",
+    title: "Refund policy",
+    description:
+      "We check whether refund windows, eligibility rules, return steps, and support contacts are easy to find.",
+    checks: "Refund window, return steps, subscription exit"
+  },
+  {
+    icon: "flags",
+    title: "Red flags",
+    description:
+      "We flag miracle claims, fake urgency, hidden blends, before-and-after pressure, and medical overreach.",
+    checks: "Hype, missing details, unsafe promises"
+  }
 ];
 
 export const commercialCards = [

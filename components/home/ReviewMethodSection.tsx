@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { reviewCriteria } from "@/content/homepage";
+import { CriterionIcon } from "./CriterionIcon";
 import { RevealOnScroll } from "./RevealOnScroll";
 
 export function ReviewMethodSection() {
@@ -35,10 +36,17 @@ export function ReviewMethodSection() {
         <RevealOnScroll className="method-aside" delay={120}>
           <p className="method-aside-label">What we evaluate</p>
           <div className="criteria-grid">
-            {reviewCriteria.map((criterion) => (
-              <div className="criterion-card" key={criterion}>
-                <span className="criterion-dot" />
-                <strong>{criterion}</strong>
+            {reviewCriteria.map((criterion, index) => (
+              <div className="criterion-card" key={criterion.title}>
+                <CriterionIcon name={criterion.icon} />
+                <span className="criterion-number">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <strong>{criterion.title}</strong>
+                <p>{criterion.description}</p>
+                <span className="criterion-checks">
+                  Checks: {criterion.checks}
+                </span>
               </div>
             ))}
           </div>

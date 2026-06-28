@@ -7,7 +7,7 @@ import { Callout } from "@/components/layout/Callout";
 export const metadata: Metadata = {
   title: "About | Weight Loss After 40",
   description:
-    "Quiet Proof Wellness helps women over 40 understand weight loss, metabolism, sleep, stress, supplements, and wellness programs with calm, evidence-informed guidance.",
+    "The Heal Beacon helps women over 40 understand weight loss, metabolism, sleep, stress, supplements, and wellness programs with calm, evidence-informed guidance.",
   alternates: { canonical: "/about" }
 };
 
@@ -16,14 +16,14 @@ export default function AboutPage() {
     <TrustPageLayout
       eyebrow="About"
       title="A calmer way to think about weight loss after 40."
-      intro="Quiet Proof Wellness is an editorial resource for women who want clear, practical, evidence-informed guidance through the changes that make midlife weight management feel different."
+      intro="The Heal Beacon is an editorial resource for women who want clear, practical, evidence-informed guidance through the changes that make midlife weight management feel different."
     >
       <ContentSection tone="paper" heading="What this site is" eyebrow="Our purpose">
         <p className="prose-lead">
           Weight loss after 40 is rarely just about eating less and moving more.
           Sleep, hormones, stress, muscle, and daily energy all start interacting
           in new ways, and the advice that worked in your thirties can feel less
-          predictable. Quiet Proof Wellness exists to make that picture easier to
+          predictable. The Heal Beacon exists to make that picture easier to
           understand without fear, pressure, or quick-fix promises.
         </p>
         <p>
@@ -83,7 +83,7 @@ export default function AboutPage() {
         </p>
         <Callout tone="navy" title="An important boundary">
           <p>
-            Quiet Proof Wellness is an educational publisher, not a medical
+            The Heal Beacon is an educational publisher, not a medical
             provider. We do not diagnose, treat, or prescribe. Nothing on this
             site is a substitute for advice from a qualified healthcare
             professional who knows your history. If you have a medical condition,

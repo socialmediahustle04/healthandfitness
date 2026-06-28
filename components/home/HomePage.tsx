@@ -13,7 +13,7 @@ export function HomePage() {
   return (
     <>
       <HomeHeader />
-      <main>
+      <main id="main-content">
         <HeroSection />
         <ProblemPathwayGrid />
         <StartHereFeature />

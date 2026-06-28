@@ -3,11 +3,12 @@ import Link from "next/link";
 import { TrustPageLayout } from "@/components/layout/TrustPageLayout";
 import { ContentSection } from "@/components/layout/ContentSection";
 import { ContactForm } from "@/components/layout/ContactForm";
+import { site } from "@/lib/design-tokens";
 
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Quiet Proof Wellness for editorial questions, corrections, partnerships, advertising, or general support.",
+    "Get in touch with The Heal Beacon for editorial questions, corrections, partnerships, advertising, or general support.",
   alternates: { canonical: "/contact" }
 };
 
@@ -34,8 +35,7 @@ const contactTopics = [
   }
 ];
 
-// TODO: Replace the placeholder email below with the real support address before launch.
-const supportEmail = "hello@example.com";
+const supportEmail = site.supportEmail;
 
 export default function ContactPage() {
   return (

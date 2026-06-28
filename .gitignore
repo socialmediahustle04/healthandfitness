@@ -31,3 +31,10 @@ pnpm-debug.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# local agent tooling (do not commit)
+.agents/
+.claude/
+.opencode/
+skills-lock.json

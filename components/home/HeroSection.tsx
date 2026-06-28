@@ -9,6 +9,7 @@ export function HeroSection() {
           muted
           loop
           playsInline
+          preload="none"
           poster="/media/homepage/hero-desktop-16x9.png"
         >
           <source src="/media/hero-wellness.mp4" type="video/mp4" />
@@ -18,7 +19,7 @@ export function HeroSection() {
 
       <div className="hero-content container">
         <div className="hero-copy">
-          <p className="eyebrow">Quiet Proof Wellness</p>
+          <p className="eyebrow">The Heal Beacon</p>
           <h1 id="homepage-hero-title">
             Weight loss after 40, without the panic.
           </h1>
