@@ -426,37 +426,301 @@ export const guides: Guide[] = [
   {
     slug: "menopause-weight-gain",
     medicalAbout: ["Menopause", "Perimenopause", "Weight gain", "Midlife weight management"],
-    title: "Menopause Weight Gain: A Practical, Evidence-Informed Guide",
+    title: "Menopause Weight Gain: An Evidence-Informed Guide",
     description:
-      "A calm guide to menopause, appetite, sleep, body composition, and realistic weight-management strategies.",
+      "Why weight changes during perimenopause and menopause, what the evidence says, and calm, realistic steps that help. No hype, no shame.",
     category: "Hormones",
-    readTime: "8 min read",
+    readTime: "10 min read",
     updated: "2026",
+    datePublished: "2026-06-29",
+    dateModified: "2026-06-29",
     funnel: "Guide",
     related: [
       { label: "Weight loss after 40", href: "/weight-loss-after-40" },
-      { label: "Sleep and weight loss", href: "/guides/sleep-and-weight-loss" },
-      { label: "Cortisol and weight gain", href: "/guides/cortisol-and-weight-gain" }
+      { label: "Why weight loss gets harder after 40", href: "/guides/why-weight-loss-gets-harder-after-40" },
+      { label: "Metabolism after 40", href: "/guides/metabolism-after-40" },
+      { label: "Protein after 40", href: "/guides/protein-after-40" }
+    ],
+    heroImage: {
+      src: "/media/article-images/menopause-weight-gain/hero-menopause-weight-gain.webp",
+      alt: "A confident woman in her early fifties standing in a bright, calm kitchen with fresh whole foods, looking relaxed and at ease.",
+      width: 1600,
+      height: 900
+    },
+    keyTakeaways: [
+      "Weight change around menopause is common, and it usually comes from several overlapping factors rather than a personal failing.",
+      "Shifting estrogen can move fat toward the abdomen, but aging, muscle loss, and lower activity matter at least as much.",
+      "Strength training, protein at every meal, fiber, daily movement, and steadier sleep are the highest-value habits.",
+      "There is no way to spot-reduce belly fat, and no supplement or detox can reset or rebalance your hormones.",
+      "Menopause hormone therapy is one medical option some women discuss with a clinician, and that decision belongs with a professional who knows your history."
+    ],
+    lead: [
+      "If your body feels different since perimenopause began, and the scale or your waistband is not responding the way it used to, you are not imagining it. Many women notice weight settling in new places during this stage, often around the middle, even when their eating and activity have barely changed.",
+      "The reasons are real, and they tend to overlap. The reassuring part is that most of them respond to a calmer, more supportive plan rather than another round of restriction. Here is what actually changes during perimenopause and menopause, what the evidence says, and the steps that tend to help most."
     ],
     sections: [
       {
-        heading: "Menopause can change the context",
+        heading: "The short answer",
         body: [
-          "Perimenopause and menopause can affect sleep, energy, mood, appetite, and where fat is stored. Those changes can make weight management feel less straightforward.",
-          "It is still worth avoiding one-cause explanations. Menopause is part of the picture, not the only variable."
+          "Weight often changes during perimenopause and menopause because several shifts tend to arrive together. Estrogen levels fall, which is associated with more fat being stored around the abdomen. Muscle gradually declines, daily movement often drops, and disrupted sleep or steady stress can quietly raise appetite. None of this is a sign that you have failed.",
+          "The encouraging part is that the habits that help most are within your control, and they are gentler than the crash plans many of us tried in our thirties. For the full picture of midlife weight, start with our <a href='/weight-loss-after-40'>complete guide to weight loss after 40</a>."
+        ],
+        bullets: [
+          "Falling estrogen is linked with more abdominal fat, sometimes without much change on the scale.",
+          "Muscle loss lowers the calories your body uses at rest.",
+          "Everyday movement tends to slip without you noticing.",
+          "Hot flashes and broken sleep can make appetite and cravings harder to manage.",
+          "Stress can shift eating, routine, and recovery all at once."
+        ]
+      },
+      {
+        heading: "Is it menopause, or is it aging?",
+        body: [
+          "It is tempting to put all the blame on hormones, but the honest answer is more layered. The Mayo Clinic notes that hormonal changes alone do not necessarily cause menopause weight gain. It is usually tied to aging, lifestyle, and genetics working together, with muscle loss slowing the rate at which the body uses calories.",
+          "This matters because it changes the plan. If the shift were purely hormonal, you would feel stuck waiting for your body to settle. Since aging, muscle, sleep, and activity are all part of it, you have real levers to pull. And despite what many ads suggest, your metabolism does not collapse overnight at midlife. Large research on energy expenditure suggests it stays relatively steady from about age 20 to 60. Our guide to <a href='/guides/metabolism-after-40'>metabolism after 40</a> looks at this more closely."
         ],
         callout: {
-          title: "Talk to a clinician",
-          body: "If symptoms are new, severe, or affecting your quality of life, discuss them with a qualified healthcare professional. A website cannot evaluate your medical history.",
+          title: "Myth vs reality",
+          body: "Menopause does not flip a switch that makes weight loss impossible. What usually changes is body composition, sleep, and daily movement, and each of those responds to steady habits.",
+          tone: "sage"
+        }
+      },
+      {
+        heading: "What actually changes during perimenopause and menopause",
+        body: [
+          "There is rarely a single cause. More often a handful of changes overlap, which is why the routine that once worked can suddenly feel less predictable. Understanding each one makes it easier to choose where to put your energy."
+        ],
+        image: {
+          src: "/media/article-images/menopause-weight-gain/menopause-body-changes-factors.webp",
+          alt: "Editorial illustration of five factors behind menopause weight change: estrogen shifts, muscle loss, fat redistribution, sleep disruption, and stress.",
+          width: 1600,
+          height: 900,
+          caption: "Five factors that commonly overlap during menopause: estrogen shifts, muscle loss, fat redistribution, sleep, and stress."
+        },
+        subsections: [
+          {
+            heading: "Estrogen shifts and where fat is stored",
+            body: [
+              "As you move through perimenopause into menopause, estrogen levels decline. That shift is associated with more fat being stored around the abdomen, the deeper kind known as visceral fat, sometimes even when the number on the scale barely moves. Many women describe this as their shape changing more than their weight.",
+              "Estrogen is part of the story, not the whole of it. Sleep, stress, muscle, and activity all feed into the same system, which is why a plan that only chases hormones tends to disappoint. For more on how these factors stack up, see our guide on <a href='/guides/why-weight-loss-gets-harder-after-40'>why weight loss gets harder after 40</a>."
+            ],
+            callout: {
+              title: "Hormones are one factor, not the only one",
+              body: "It is easy to blame a single hormone, but midlife weight change is usually the result of several things working together. That is actually good news, because it means more of it is within reach.",
+              tone: "navy"
+            }
+          },
+          {
+            heading: "Muscle gradually declines",
+            body: [
+              "From around your thirties onward, muscle mass tends to slowly decrease unless you are actively working to keep it. Because muscle is busy, calorie-using tissue, having less of it can lower the energy your body burns at rest, which can make weight easier to gain and harder to shed.",
+              "This is the single most addressable item on the list. Protecting muscle through strength work and enough protein gives a midlife plan its biggest return. Our guide to <a href='/guides/protein-after-40'>protein after 40</a> covers the food side in practical terms."
+            ]
+          },
+          {
+            heading: "Sleep often gets disrupted",
+            body: [
+              "Hot flashes, night sweats, and more frequent waking are common during this stage, and they can fragment sleep even if you are in bed for plenty of hours. Short or broken sleep is associated with stronger appetite and more snacking. As the Mayo Clinic points out, when people do not get enough sleep, they tend to eat and drink more calories.",
+              "Better sleep will not make weight disappear on its own, but it can make the next day's choices noticeably easier. Our guide on <a href='/guides/sleep-and-weight-loss'>sleep and weight loss</a> goes into the why and the how."
+            ]
+          },
+          {
+            heading: "Stress and the cortisol question",
+            body: [
+              "Stress is real, and it can influence eating, routine, alcohol, movement, and recovery. What it is not is a simple switch you can flip to lose belly fat. Cortisol, the hormone usually blamed, is a normal part of your daily rhythm, and the internet tends to oversimplify its role.",
+              "It is worth managing stress because of how it affects the habits around it, not because a single hormone number explains your waistline. We unpack this in <a href='/guides/cortisol-and-weight-gain'>what cortisol can and cannot explain</a>."
+            ]
+          },
+          {
+            heading: "Appetite, cravings, and quieter daily movement",
+            body: [
+              "Two quieter changes often go unnoticed. Appetite cues can shift during this stage, so hunger and fullness may feel less reliable than they used to. At the same time, everyday movement tends to fall as schedules get busier and more sedentary. The Mayo Clinic notes that most people become less active with age, and those small reductions add up over months.",
+              "This drop is not about skipped workouts so much as fewer steps, more sitting, and less incidental motion across an ordinary day. Naming it makes it easier to gently reverse."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "What actually helps",
+        body: [
+          "Here is the part worth sitting with: the most effective steps during menopause are also the most sustainable. Think of these as supportive habits you can repeat for years, not a strict regimen with an expiry date."
+        ],
+        image: {
+          src: "/media/article-images/menopause-weight-gain/strength-protein-menopause.webp",
+          alt: "A woman over 50 doing light dumbbell strength training at home next to a protein-forward meal.",
+          width: 1200,
+          height: 900,
+          caption: "Strength training a couple of times a week is one of the highest-value habits during menopause."
+        },
+        subsections: [
+          {
+            heading: "Strength training to protect muscle",
+            body: [
+              "Resistance training is the closest thing there is to a foundation for midlife weight management. It helps preserve the muscle that supports your metabolism, your strength, and your day-to-day function. The Physical Activity Guidelines for Americans recommend muscle-strengthening activity on two or more days per week, alongside regular aerobic movement.",
+              "If lifting is new to you, or you are managing an injury, start light, focus on form, and build up slowly. A few sessions with a qualified trainer or physical therapist early on can make the whole thing safer and more enjoyable."
+            ]
+          },
+          {
+            heading: "Protein at every meal",
+            body: [
+              "Enough protein supports muscle maintenance and helps you feel full, which makes an eating plan easier to stick with when appetite cues feel unreliable. A simple way in is to anchor each meal with a clear protein source rather than counting every gram.",
+              "Whole foods can do most of the work here, and protein powders are optional rather than required. Needs vary from person to person, so if you have kidney disease or another condition, check with your clinician first. Our <a href='/guides/protein-after-40'>protein after 40 guide</a> has practical examples to borrow from."
+            ],
+            bullets: [
+              "Build breakfast around eggs, Greek yogurt, or a similar protein.",
+              "Add a palm-sized protein source to lunch and dinner.",
+              "Pair protein with fiber-rich vegetables, fruit, or whole grains."
+            ]
+          },
+          {
+            heading: "Fiber and a calorie approach you can sustain",
+            body: [
+              "Fiber-rich foods help with fullness and digestion, and they pair naturally with protein to keep you satisfied on fewer calories. Vegetables, fruit, beans, lentils, and whole grains do this gently, without the rebound that severe restriction tends to trigger.",
+              "A modest, livable calorie reduction almost always beats an extreme one, because the goal is something you can repeat for months rather than days. If structure or accountability is the piece you keep missing, a well-run program can help. Our <a href='/best/best-weight-loss-programs-for-women-over-40'>comparison of weight-loss programs for women over 40</a> explains what to look for before you commit."
+            ]
+          },
+          {
+            heading: "Daily movement and walking",
+            body: [
+              "Walking is an underrated way to rebuild the everyday activity that tends to slip during this stage, and it pairs well with strength work without leaving you depleted. General guidance points toward roughly 150 minutes of moderate activity per week, built up gradually rather than all at once.",
+              "A short walk after meals, a longer one on the weekend, or simply more standing and stepping through the day all count toward that total."
+            ]
+          },
+          {
+            heading: "Sleep and stress support",
+            body: [
+              "A steady sleep routine and realistic stress management are not side issues. They make every other habit easier. Aim for consistent sleep and wake times, lower light in the evening, and a wind-down cue your body learns to recognize.",
+              "If hot flashes, insomnia, or night waking keep disrupting your rest, that is worth raising with a healthcare professional rather than pushing through. Our guides on <a href='/guides/sleep-and-weight-loss'>sleep and weight loss</a> and <a href='/guides/cortisol-and-weight-gain'>stress and cortisol</a> offer gentle starting points."
+            ],
+            image: {
+              src: "/media/article-images/menopause-weight-gain/sleep-stress-menopause-routine.webp",
+              alt: "A calm evening wind-down scene with a bedside lamp, herbal tea, a book, and a cool, restful bedroom suggesting better sleep during menopause.",
+              width: 1200,
+              height: 900,
+              caption: "A consistent, low-key wind-down can make the next day's choices easier."
+            }
+          }
+        ]
+      },
+      {
+        heading: "What about menopause hormone therapy (HRT)?",
+        body: [
+          "Many women wonder where hormone therapy fits in. Menopause hormone therapy, sometimes called HRT, is a recognized medical option that may help with certain menopause symptoms such as hot flashes and night sweats. It is not a weight-loss treatment, and the evidence on its effect on weight is mixed.",
+          "Whether it is appropriate depends on your symptoms, your personal and family medical history, and your own preferences. Benefits and risks differ from one person to the next, so this is a conversation to have with a qualified clinician who knows your history rather than a decision to make from an article. We mention it here so you know it exists as an option, not to recommend it."
+        ],
+        callout: {
+          title: "This decision belongs with a clinician",
+          body: "If menopause symptoms are affecting your quality of life, talk with a qualified healthcare professional about your options, including whether hormone therapy is right for you. A website cannot weigh your medical history.",
           tone: "terracotta"
         }
       },
       {
-        heading: "What tends to help",
+        heading: "Myths worth retiring",
         body: [
-          "A useful plan often combines resistance training, protein-forward meals, fiber-rich foods, walking, sleep support, and a calorie approach that does not trigger rebound eating.",
-          "Medical options may be appropriate for some people. Those decisions belong with a clinician who knows your history."
-        ]
+          "A lot of menopause marketing leans on fear and big promises. Clearing out a few common myths can save you money, time, and a fair amount of frustration."
+        ],
+        bullets: [
+          "You cannot reset or rebalance your hormones with a supplement, tea, or detox. Those words sell products, but they do not describe how the body works.",
+          "There is no menopause belly fix and no way to spot-reduce fat from one area. Overall habits, not targeted gadgets, move the needle.",
+          "Weight change in menopause is common, but it is not inevitable or permanent, and it is not a verdict on your willpower.",
+          "Crash diets tend to backfire faster now, because they strip away the muscle a midlife body benefits from keeping."
+        ],
+        callout: {
+          title: "Claim check",
+          body: "If a product promises to melt menopause belly fat or reset your hormones, treat that as a marketing red flag rather than a health claim. Steady habits are less dramatic and far more reliable.",
+          tone: "navy"
+        }
+      },
+      {
+        heading: "When to talk to a healthcare professional",
+        body: [
+          "Self-directed habits help most people, but some situations deserve personalized guidance. Consider speaking with a qualified healthcare professional if you have unexplained or rapid weight changes, symptoms that point to a thyroid or other medical issue, perimenopause or menopause symptoms that are disrupting your life, medications that may affect weight, or a history of disordered eating.",
+          "A clinician who knows your full history can rule things out, tailor advice safely, and spare you the trial and error that wears you down."
+        ],
+        callout: {
+          title: "A simple rule of thumb",
+          body: "If something feels new, severe, or confusing, it is always reasonable to pause and check with a professional before making big changes.",
+          tone: "terracotta"
+        }
+      }
+    ],
+    faqs: [
+      {
+        question: "Why do women gain weight during menopause?",
+        answer:
+          "It is usually several factors at once rather than one. Falling estrogen is associated with more fat being stored around the abdomen, muscle gradually declines, daily movement often drops, and disrupted sleep or ongoing stress can increase appetite. The Mayo Clinic notes that hormones alone do not necessarily cause the gain, so aging and lifestyle matter too."
+      },
+      {
+        question: "Why does menopause cause belly fat specifically?",
+        answer:
+          "Declining estrogen is linked with a shift toward storing fat around the midsection rather than the hips and thighs, sometimes without much change in overall weight. There is no way to target fat from one area, but habits that protect muscle and reduce excess calories tend to help with abdominal fat over time."
+      },
+      {
+        question: "Is it harder to lose weight during perimenopause and menopause?",
+        answer:
+          "It can feel less predictable, because sleep, appetite, muscle, and activity may all be shifting at the same time. It is still very possible. A plan built around strength training, adequate protein, fiber, daily movement, and steadier sleep tends to work, especially when paired with patience rather than crash dieting."
+      },
+      {
+        question: "Is menopause weight gain inevitable?",
+        answer:
+          "No. Weight change is common during this stage, but it is not guaranteed or permanent. Because much of it comes from muscle loss, lower activity, and disrupted sleep rather than hormones alone, consistent and supportive habits can make a real difference."
+      },
+      {
+        question: "Does menopause hormone therapy (HRT) cause or prevent weight gain?",
+        answer:
+          "Menopause hormone therapy is used to help certain menopause symptoms, not as a weight-loss treatment, and the evidence on its effect on weight is mixed. Whether it is appropriate depends on your symptoms and medical history, so it is a decision to make with a qualified clinician who knows your situation."
+      },
+      {
+        question: "What is the best exercise and diet approach for menopause weight gain?",
+        answer:
+          "There is no single best plan, but the most reliable combination is strength training at least twice a week, protein at each meal, plenty of fiber, regular walking, and a modest calorie approach you can sustain. Better sleep and stress management support all of it. If you have a medical condition, check with your clinician before big changes."
+      }
+    ],
+    sources: [
+      {
+        label: "Menopause weight gain: Stop the middle-age spread",
+        publisher: "Mayo Clinic",
+        url: "https://www.mayoclinic.org/healthy-lifestyle/womens-health/in-depth/menopause-weight-gain/art-20046058"
+      },
+      {
+        label: "Menopause topics and patient education",
+        publisher: "The Menopause Society",
+        url: "https://menopause.org/"
+      },
+      {
+        label: "Perimenopause",
+        publisher: "Cleveland Clinic",
+        url: "https://my.clevelandclinic.org/health/diseases/21608-perimenopause"
+      },
+      {
+        label: "Daily energy expenditure through the human life course (2021)",
+        publisher: "Pontzer et al., Science",
+        url: "https://www.science.org/doi/10.1126/science.abe5017"
+      },
+      {
+        label: "Preserve your muscle mass",
+        publisher: "Harvard Health Publishing",
+        url: "https://www.health.harvard.edu/staying-healthy/preserve-your-muscle-mass"
+      },
+      {
+        label: "Physical Activity Guidelines for Americans, 2nd edition",
+        publisher: "U.S. Department of Health and Human Services",
+        url: "https://health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines"
+      },
+      {
+        label: "Exercise and physical activity",
+        publisher: "National Institute on Aging",
+        url: "https://www.nia.nih.gov/health/exercise-and-physical-activity"
+      },
+      {
+        label: "Choosing a safe and successful weight-loss program",
+        publisher: "NIDDK",
+        url: "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program"
+      },
+      {
+        label: "Weight loss and sleep",
+        publisher: "Sleep Foundation",
+        url: "https://www.sleepfoundation.org/physical-health/weight-loss-and-sleep"
       }
     ]
   },
