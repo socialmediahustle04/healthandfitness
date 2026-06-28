@@ -1006,33 +1006,292 @@ export const guides: Guide[] = [
   },
   {
     slug: "sleep-and-weight-loss",
-    medicalAbout: ["Sleep", "Weight loss after 40", "Appetite regulation"],
-    title: "Sleep and Weight Loss: Why Rest Affects Cravings and Energy",
+    medicalAbout: ["Sleep", "Weight loss after 40", "Appetite regulation", "Insomnia"],
+    title: "Sleep and Weight Loss: Cravings, Energy, and Rest",
     description:
-      "How sleep can influence appetite, cravings, training energy, and consistency in a midlife weight-loss plan.",
+      "Sleep is not a weight-loss cure, but it shapes appetite, cravings, and energy. Here is how rest affects weight after 40, and how to sleep better.",
     category: "Sleep",
-    readTime: "5 min read",
+    readTime: "9 min read",
     updated: "2026",
+    datePublished: "2026-06-29",
+    dateModified: "2026-06-29",
     funnel: "Guide",
     related: [
-      { label: "Cortisol and weight gain", href: "/guides/cortisol-and-weight-gain" },
       { label: "Weight loss after 40", href: "/weight-loss-after-40" },
-      { label: "Meal plans", href: "/categories/meal-plans" }
+      { label: "Why weight loss gets harder after 40", href: "/guides/why-weight-loss-gets-harder-after-40" },
+      { label: "Menopause weight gain", href: "/guides/menopause-weight-gain" },
+      { label: "Cortisol and weight gain", href: "/guides/cortisol-and-weight-gain" }
+    ],
+    heroImage: {
+      src: "/media/article-images/sleep-and-weight-loss/hero-sleep-and-weight-loss.webp",
+      alt: "A woman in her late forties waking up rested in soft morning light, calm and refreshed.",
+      width: 1600,
+      height: 900
+    },
+    keyTakeaways: [
+      "Sleep is not a weight-loss treatment, but it can make the habits that support weight loss much easier to keep.",
+      "Short sleep is associated with more hunger, less fullness, and stronger cravings the next day.",
+      "It also tends to lower your energy for movement and can make blood sugar harder to manage.",
+      "Sleep often gets harder in perimenopause and menopause, which is common and worth addressing.",
+      "Most adults do better with at least 7 hours, and the quality of that sleep matters as much as the hours."
+    ],
+    lead: [
+      "If a short or broken night leaves you reaching for snacks, skipping your walk, and feeling behind by mid-afternoon, you are not imagining it, and it is not a willpower problem. Poor sleep changes how hungry you feel, what you crave, and how much energy you have for the choices that usually feel easy.",
+      "Sleep is not a magic weight-loss switch, and this guide will not pretend otherwise. What it can do is make the habits that support weight loss easier to repeat. Here is how rest affects appetite, cravings, and energy, why it gets harder after 40, and a calm plan to sleep a little better."
     ],
     sections: [
       {
-        heading: "Sleep changes the next day's choices",
+        heading: "The short answer",
         body: [
-          "Poor sleep can make cravings stronger, energy lower, and planning harder. It can also make workouts feel more difficult and reduce patience with meal prep.",
-          "Better sleep does not guarantee weight loss, but it can make the habits that support weight loss easier to repeat."
+          "Sleep does not directly burn fat, and it is not a weight-loss treatment. What the evidence suggests is that poor sleep is associated with more hunger, stronger cravings, lower energy, and harder blood sugar control, all of which make eating and moving well more difficult the next day.",
+          "So the useful way to think about it is indirect. Better sleep tends to make a sensible plan easier to follow, rather than doing the work for you. For the bigger picture, see our <a href='/weight-loss-after-40'>complete guide to weight loss after 40</a>."
+        ],
+        bullets: [
+          "Short sleep is associated with higher hunger and lower fullness signals.",
+          "It tends to push cravings toward higher-calorie, higher-carbohydrate foods.",
+          "Tiredness lowers energy and motivation to move.",
+          "Poor sleep can make blood sugar harder to manage over time.",
+          "Better sleep supports your habits; it does not replace them."
         ]
       },
       {
-        heading: "Build a repeatable evening routine",
+        heading: "How sleep affects weight",
         body: [
-          "A useful sleep routine is boring in the best way: consistent timing, lower light, less late caffeine, and a wind-down cue your body can recognize.",
-          "If insomnia, hot flashes, or breathing issues are persistent, talk with a healthcare professional."
+          "The link between sleep and weight is still being studied, and researchers describe it as a correlation rather than a simple cause and effect. Even so, a few consistent patterns help explain why a rough night so often turns into a harder day."
+        ],
+        image: {
+          src: "/media/article-images/sleep-and-weight-loss/sleep-weight-mechanisms.webp",
+          alt: "Editorial illustration of how short sleep can affect weight: appetite hormones, cravings, lower energy, and blood sugar.",
+          width: 1600,
+          height: 900,
+          caption: "Short sleep can nudge appetite hormones, cravings, and energy, which makes the next day's choices harder."
+        },
+        subsections: [
+          {
+            heading: "Appetite hormones (leptin and ghrelin)",
+            body: [
+              "Two messengers help regulate appetite. Ghrelin signals hunger, and leptin signals fullness. According to the Sleep Foundation, short sleep is associated with higher ghrelin and lower leptin, which can leave you feeling hungrier and less satisfied by your meals.",
+              "As an illustration, the Sleep Foundation points to research in which men who slept about 4 hours showed higher ghrelin and lower leptin than those who slept about 10 hours. This is an association rather than proof that sleep alone changes body fat, and our guide on <a href='/guides/why-weight-loss-gets-harder-after-40'>why weight loss gets harder after 40</a> shows how it fits with other midlife factors."
+            ]
+          },
+          {
+            heading: "Cravings and next-day food choices",
+            body: [
+              "Tiredness does not just make you hungrier, it can change what sounds good. The Sleep Foundation notes that sleep-deprived people tend to reach for higher-calorie, higher-carbohydrate foods, and the Mayo Clinic points out that when people do not get enough sleep, they tend to eat and drink more calories overall.",
+              "A practical buffer is to keep meals anchored with protein and fiber so you feel fuller on a tough day. Our <a href='/guides/protein-after-40'>protein after 40 guide</a> has simple ways to do that."
+            ]
+          },
+          {
+            heading: "Energy, movement, and exercise quality",
+            body: [
+              "Short sleep tends to lower your energy and motivation, so daily movement quietly drops and workouts can feel harder than usual. Those small reductions in activity add up across a week.",
+              "It is worth being clear about one thing: sleep does not speed up your metabolism, and resting more is not a way to burn extra calories. If that idea interests you, our guide to <a href='/guides/metabolism-after-40'>metabolism after 40</a> explains what actually drives daily energy use."
+            ]
+          },
+          {
+            heading: "Insulin sensitivity and blood sugar",
+            body: [
+              "Sleep also plays a role in how steadily your body handles blood sugar. Ongoing short sleep is associated with reduced insulin sensitivity and, over time, a higher risk of type 2 diabetes, which the CDC lists among the health reasons enough sleep matters.",
+              "This is about general metabolic health rather than a shortcut to fat loss. Steadier sleep is one of several habits that can support more stable energy and fewer afternoon crashes."
+            ]
+          }
         ]
+      },
+      {
+        heading: "Why sleep gets harder after 40",
+        body: [
+          "If your sleep has become lighter or more broken in recent years, you are in good company. Perimenopause and menopause can bring night waking, hot flashes, and night sweats, all of which fragment sleep even when you are in bed for plenty of hours.",
+          "Stress, busy schedules, and caregiving can pile on top of that, and worry about sleep can become its own obstacle. None of this is a personal failing. Our guides on <a href='/guides/menopause-weight-gain'>menopause weight gain</a> and <a href='/guides/cortisol-and-weight-gain'>stress and cortisol</a> go deeper into the hormonal and stress pieces."
+        ],
+        callout: {
+          title: "Broken sleep here is common",
+          body: "Lighter, more interrupted sleep is a normal part of this stage for many women. It is worth addressing, and it does not mean anything has gone wrong with you.",
+          tone: "sage"
+        }
+      },
+      {
+        heading: "How much sleep do you actually need",
+        body: [
+          "Most adults do better with at least 7 hours of sleep a night, a figure supported by the CDC and by a joint consensus from the American Academy of Sleep Medicine and the Sleep Research Society. Individual needs vary, and there is no single number that fits everyone.",
+          "Quality matters as much as quantity. The CDC describes good sleep as uninterrupted and refreshing, and notes that trouble falling asleep, waking repeatedly through the night, or feeling tired despite enough hours can all signal that the quality is off."
+        ],
+        callout: {
+          title: "Quality, not just quantity",
+          body: "Seven broken hours can feel worse than seven steady ones. If you wake often or still feel unrested, focus on the quality of your sleep, not only the total on the clock.",
+          tone: "navy"
+        }
+      },
+      {
+        heading: "How to sleep better: a realistic wind-down plan",
+        body: [
+          "You do not need a perfect routine, just a few steady habits that make sleep more likely. The steps below draw on the CDC's sleep guidance, and the goal is something you can repeat on an ordinary weeknight."
+        ],
+        subsections: [
+          {
+            heading: "Keep consistent sleep and wake times",
+            body: [
+              "Going to bed and getting up at about the same time each day, including weekends where you can, helps steady your body's internal clock. Consistency tends to do more for how rested you feel than the occasional early night.",
+              "If your schedule is irregular, start by anchoring just your wake time, since that is often the easier end to hold steady."
+            ]
+          },
+          {
+            heading: "Dim light, screens, and an evening wind-down",
+            body: [
+              "Lowering the lights in the evening and turning off screens about 30 minutes before bed gives your body a clearer signal that the day is ending. A simple wind-down cue, such as tea, a warm shower, or a few pages of a book, can help your mind shift gears.",
+              "The aim is to make the hour before bed calmer and more predictable, not to follow a rigid ritual."
+            ],
+            image: {
+              src: "/media/article-images/sleep-and-weight-loss/evening-wind-down-routine.webp",
+              alt: "A calm evening wind-down: a bedside lamp, herbal tea, and a book in a restful bedroom.",
+              width: 1200,
+              height: 900,
+              caption: "A consistent, low-key wind-down helps signal to your body that it is time to rest."
+            }
+          },
+          {
+            heading: "Watch caffeine, alcohol, and late meals",
+            body: [
+              "Caffeine lingers longer than many people expect, so the CDC suggests avoiding it in the afternoon and evening. Alcohol can make you drowsy at first but tends to fragment sleep later in the night, and large meals close to bedtime can do the same.",
+              "You do not have to give these up entirely. Shifting them earlier in the day is often enough to notice a difference."
+            ]
+          },
+          {
+            heading: "Get daylight and movement during the day",
+            body: [
+              "What you do during the day shapes how you sleep at night. Morning daylight and regular movement both help set your internal clock and can make it easier to fall asleep later on.",
+              "Even a short walk outdoors in the morning counts, and it pairs nicely with the everyday activity that supports weight management anyway."
+            ],
+            image: {
+              src: "/media/article-images/sleep-and-weight-loss/daytime-habits-for-better-sleep.webp",
+              alt: "A woman in her fifties enjoying morning daylight outdoors with a cup of coffee, a daytime habit that supports better sleep.",
+              width: 1200,
+              height: 900,
+              caption: "Morning daylight and regular movement during the day support better sleep at night."
+            }
+          },
+          {
+            heading: "Make the bedroom calm and cool",
+            body: [
+              "A quiet, dark, and cool bedroom gives sleep the best chance, and a cooler room can be especially helpful if hot flashes or night sweats wake you. Keeping the space tidy and screen-free also makes it easier to associate the room with rest.",
+              "Small adjustments, such as breathable bedding, blackout curtains, or a fan, can make a real difference without much effort."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "A note on sleep supplements",
+        body: [
+          "Sleep supplements such as melatonin are widely sold, and it is natural to wonder whether they are worth trying. They are not a substitute for steady sleep habits or for medical care, the evidence for them varies, and they can interact with medications and health conditions.",
+          "If you are considering one, it is worth a brief conversation with a clinician or pharmacist first, especially if you take other medicines. This guide does not recommend any specific product or dose."
+        ],
+        callout: {
+          title: "Check before you start",
+          body: "Talk with a qualified healthcare professional or pharmacist before using melatonin or other sleep supplements, particularly if you take medication or have a health condition.",
+          tone: "terracotta"
+        }
+      },
+      {
+        heading: "Myths worth retiring",
+        body: [
+          "Sleep is genuinely helpful, which is exactly why it gets oversold. Letting go of a few myths keeps your expectations realistic and your trust intact."
+        ],
+        bullets: [
+          "You cannot sleep your way thin. Sleep supports the habits that help with weight, but on its own it is not a weight-loss treatment.",
+          "Catch-up sleep on the weekend helps a little, but it does not fully undo the effects of several short nights during the week.",
+          "More is not always better. Regularly needing very long sleep and still feeling tired can be a sign worth discussing with a clinician.",
+          "Sleep does not speed up your metabolism, so resting more is not a way to burn extra calories."
+        ],
+        callout: {
+          title: "Claim check",
+          body: "If a product or headline promises weight loss while you sleep, treat that as marketing rather than a health claim. Better sleep helps by making good days easier, not by melting anything away.",
+          tone: "navy"
+        }
+      },
+      {
+        heading: "When to talk to a healthcare professional",
+        body: [
+          "Steady habits help most people, but some sleep problems deserve professional input. Consider speaking with a qualified healthcare professional if you have persistent insomnia, loud snoring or pauses in breathing that could point to sleep apnea, or perimenopause and menopause symptoms that keep disrupting your nights.",
+          "The CDC notes that a healthcare provider can run tests, including sleep studies, to check for a sleep disorder. It is also worth a conversation if a medication seems to be affecting your sleep, rather than adjusting anything on your own."
+        ],
+        callout: {
+          title: "A simple rule of thumb",
+          body: "If poor sleep is persistent, or something feels off such as loud snoring or breathing pauses, it is always reasonable to check with a professional before trying to fix it alone.",
+          tone: "terracotta"
+        }
+      }
+    ],
+    faqs: [
+      {
+        question: "Does sleep really affect weight loss?",
+        answer:
+          "Sleep does not directly burn fat, but poor sleep is associated with more hunger, stronger cravings, lower energy for movement, and harder blood sugar control. Those effects make a sensible eating and activity plan harder to follow, so better sleep tends to support weight loss rather than cause it."
+      },
+      {
+        question: "How does lack of sleep cause cravings or weight gain?",
+        answer:
+          "Short sleep is associated with higher ghrelin, the hunger signal, and lower leptin, the fullness signal, which can increase appetite. The Sleep Foundation also notes that sleep-deprived people tend to choose higher-calorie, higher-carbohydrate foods, and the Mayo Clinic notes they tend to eat and drink more calories overall."
+      },
+      {
+        question: "How many hours of sleep do adults need?",
+        answer:
+          "Most adults do better with at least 7 hours a night, according to the CDC and a joint consensus from the American Academy of Sleep Medicine and the Sleep Research Society. Needs vary from person to person, and the quality of your sleep matters as much as the number of hours."
+      },
+      {
+        question: "Why is sleep worse during perimenopause and menopause?",
+        answer:
+          "Perimenopause and menopause can bring night waking, hot flashes, and night sweats, which fragment sleep even when you spend enough time in bed. Stress and busy schedules can add to it. This is common, and persistent or disruptive symptoms are worth raising with a clinician."
+      },
+      {
+        question: "Does poor sleep affect blood sugar and insulin?",
+        answer:
+          "Ongoing short sleep is associated with reduced insulin sensitivity and, over time, a higher risk of type 2 diabetes, which is one reason the CDC highlights enough sleep for health. This is about general metabolic health rather than a shortcut to fat loss."
+      },
+      {
+        question: "What is the best way to sleep better?",
+        answer:
+          "Keep consistent sleep and wake times, dim lights and screens before bed, limit afternoon caffeine and late alcohol or heavy meals, get morning daylight and regular movement, and keep the bedroom quiet, dark, and cool. If problems persist, talk with a healthcare professional."
+      }
+    ],
+    sources: [
+      {
+        label: "Sleep and weight loss",
+        publisher: "Sleep Foundation",
+        url: "https://www.sleepfoundation.org/physical-health/weight-loss-and-sleep"
+      },
+      {
+        label: "About sleep",
+        publisher: "Centers for Disease Control and Prevention",
+        url: "https://www.cdc.gov/sleep/about/index.html"
+      },
+      {
+        label: "Recommended amount of sleep for a healthy adult (2015)",
+        publisher: "American Academy of Sleep Medicine and Sleep Research Society",
+        url: "https://jcsm.aasm.org/doi/10.5664/jcsm.4758"
+      },
+      {
+        label: "Metabolism and weight loss: How you burn calories",
+        publisher: "Mayo Clinic",
+        url: "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/metabolism/art-20046508"
+      },
+      {
+        label: "Sleep tips: 6 steps to better sleep",
+        publisher: "Mayo Clinic",
+        url: "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/sleep/art-20048379"
+      },
+      {
+        label: "Sleep deprivation and deficiency",
+        publisher: "National Heart, Lung, and Blood Institute",
+        url: "https://www.nhlbi.nih.gov/health/sleep-deprivation"
+      },
+      {
+        label: "Menopause weight gain: Stop the middle-age spread",
+        publisher: "Mayo Clinic",
+        url: "https://www.mayoclinic.org/healthy-lifestyle/womens-health/in-depth/menopause-weight-gain/art-20046058"
+      },
+      {
+        label: "Insomnia",
+        publisher: "Cleveland Clinic",
+        url: "https://my.clevelandclinic.org/health/diseases/12119-insomnia"
       }
     ]
   },
