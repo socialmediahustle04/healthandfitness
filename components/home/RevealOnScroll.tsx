@@ -30,7 +30,10 @@ export function RevealOnScroll({
           }
         }
       },
-      { threshold: 0.12, rootMargin: "0px 0px -8% 0px" }
+      // threshold 0 so any intersection reveals the element. A higher threshold
+      // can never be reached by elements taller than the viewport (e.g. a full
+      // article body), which would leave them stuck at opacity 0.
+      { threshold: 0, rootMargin: "0px 0px -8% 0px" }
     );
     observer.observe(el);
     return () => observer.disconnect();
