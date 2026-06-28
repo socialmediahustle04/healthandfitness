@@ -394,32 +394,312 @@ export const guides: Guide[] = [
   {
     slug: "metabolism-after-40",
     medicalAbout: ["Metabolism", "Weight loss after 40", "Muscle mass", "Midlife weight management"],
-    title: "Metabolism After 40: What Changes and What Still Matters",
+    title: "Metabolism After 40: What Really Changes (and Helps)",
     description:
-      "Understand metabolism after 40 without panic, including muscle, movement, protein, sleep, and realistic expectations.",
+      "Does metabolism really crash at 40? Here is the calm, evidence-based truth about what changes, what does not, and what actually helps.",
     category: "Metabolism",
-    readTime: "6 min read",
+    readTime: "9 min read",
     updated: "2026",
+    datePublished: "2026-06-29",
+    dateModified: "2026-06-29",
     funnel: "Guide",
     related: [
       { label: "Weight loss after 40", href: "/weight-loss-after-40" },
+      { label: "Why weight loss gets harder after 40", href: "/guides/why-weight-loss-gets-harder-after-40" },
       { label: "Menopause weight gain", href: "/guides/menopause-weight-gain" },
       { label: "Protein after 40", href: "/guides/protein-after-40" }
     ],
+    heroImage: {
+      src: "/media/article-images/metabolism-after-40/hero-metabolism-after-40.webp",
+      alt: "An active woman in her late forties walking outdoors in soft morning light, looking energetic and at ease.",
+      width: 1600,
+      height: 900
+    },
+    keyTakeaways: [
+      "Your metabolism does not suddenly crash at 40; research suggests it stays relatively steady from about age 20 to 60.",
+      "Resting metabolism is the largest part of daily energy use, and it is not something you can meaningfully speed up.",
+      "What you can influence is muscle and everyday movement, and both tend to slip in midlife.",
+      "Strength training, enough protein, and more daily movement support your metabolism far better than any booster.",
+      "Products that promise to boost or reset your metabolism rarely live up to the claims."
+    ],
+    lead: [
+      "If you have been told your metabolism is broken, that it crashed on your fortieth birthday, and that you now need to boost it back to life, you have plenty of company. That story is everywhere, and it tends to leave women feeling like their own body is working against them.",
+      "The honest version is calmer and a lot more useful. Here is what the evidence actually says about metabolism after 40, what genuinely changes, what does not, and the realistic steps that help most."
+    ],
     sections: [
       {
-        heading: "Metabolism is not broken",
+        heading: "The short answer",
         body: [
-          "Metabolism can change with age, but most midlife weight gain is not explained by age alone. Muscle loss, lower activity, sleep disruption, medications, and appetite changes can all matter.",
-          "The practical question is not how to hack metabolism. It is how to protect the habits that support it."
+          "Your metabolism does not collapse at 40. Large research on energy expenditure suggests that the calories your body uses each day, once you account for body size, stay relatively steady from about age 20 to 60. The sense that things have shifted is real, but it usually comes from losing muscle and moving less, not from a broken engine.",
+          "That distinction matters, because it points you toward the things you can change. For the full midlife picture, start with our <a href='/weight-loss-after-40'>complete guide to weight loss after 40</a>."
+        ],
+        bullets: [
+          "Daily energy use, adjusted for body size, holds fairly steady through midlife.",
+          "Resting metabolism is the biggest share, and you cannot easily change its speed.",
+          "Muscle and everyday movement are the parts you can actually influence.",
+          "Most age-related change is gradual, not a sudden midlife switch."
         ]
       },
       {
-        heading: "Muscle is a quiet advantage",
+        heading: "The metabolism myth: it does not crash at 40",
         body: [
-          "Strength training helps preserve muscle and function. It can also make a weight-loss plan more sustainable because the goal is not only a lower scale number.",
-          "If you are new to lifting or have injuries, start with professional guidance or a beginner-friendly program."
+          "The most repeated claim in midlife health is that your metabolism falls off a cliff at 40. A large 2021 study published in Science mapped energy expenditure across the whole lifespan and found something more reassuring. After a busy first year of life and a slow decline through childhood, energy use adjusted for body size settles into a long, stable stretch from about age 20 to 60. A more gradual decline of less than 1 percent a year tends to begin later, closer to 60.",
+          "So the idea of a switch flipping at 40 is mostly a myth. The difficulty many women feel is genuine, but it is driven by factors you can work with rather than by a metabolism that has given up. Our guide on <a href='/guides/why-weight-loss-gets-harder-after-40'>why weight loss gets harder after 40</a> walks through how those factors add up."
+        ],
+        callout: {
+          title: "Myth vs reality",
+          body: "Your metabolism does not crash on your fortieth birthday. What usually changes is muscle, daily movement, and routine, and each of those responds to steady habits.",
+          tone: "sage"
+        }
+      },
+      {
+        heading: "What actually makes up your daily energy use",
+        body: [
+          "It helps to picture where your calories actually go each day. Once you can see the parts, it becomes clear why you cannot simply speed up the engine, and which pieces are genuinely within your control."
+        ],
+        image: {
+          src: "/media/article-images/metabolism-after-40/metabolism-daily-energy-factors.webp",
+          alt: "Editorial illustration of what makes up daily energy use: resting metabolism, muscle, everyday movement, exercise, and digestion.",
+          width: 1600,
+          height: 900,
+          caption: "Most of your daily energy use is your resting metabolism; muscle and everyday movement are the parts you can most influence."
+        },
+        subsections: [
+          {
+            heading: "Resting metabolism, the biggest share",
+            body: [
+              "Even at rest, your body is busy. It uses energy to breathe, circulate blood, keep hormone levels steady, and repair cells. The Mayo Clinic calls this your basal metabolic rate, and it is the largest portion of the calories you use in a day. Muscle mass is a key factor in how high it sits.",
+              "Here is the part the ads leave out: you cannot easily change the speed of your resting metabolism. That is not bad news, it just means the real levers are elsewhere."
+            ]
+          },
+          {
+            heading: "Everyday movement (NEAT)",
+            body: [
+              "All the motion that is not formal exercise, things like walking to the car, tidying up, gardening, taking the stairs, and even fidgeting, has a clinical name: non-exercise activity thermogenesis, or NEAT. The Mayo Clinic notes it can account for roughly 100 to 800 calories a day, and it is something you can change a great deal.",
+              "This is often the quiet difference between two people who eat similarly. The one who seems to have a faster metabolism is frequently just moving more across the day."
+            ]
+          },
+          {
+            heading: "Planned exercise",
+            body: [
+              "Workouts add to your daily total too, and they matter enormously for muscle, mood, and long-term health. They are usually a smaller slice of daily energy use than people expect, which is why exercise works best alongside everyday movement rather than as the only lever.",
+              "General guidance points toward about 150 minutes of moderate activity a week, with strength work on top, built up at a pace that feels sustainable."
+            ]
+          },
+          {
+            heading: "The smaller effect of digesting food",
+            body: [
+              "Your body also spends energy digesting, absorbing, and storing what you eat. The Mayo Clinic puts this at roughly 10 percent of the calories you take in, and notes that you cannot change it much.",
+              "That is worth remembering whenever you see a food, spice, or drink sold as a way to fire up your metabolism. The effect is small and short-lived, not a shortcut."
+            ]
+          }
         ]
+      },
+      {
+        heading: "What actually slows down after 40",
+        body: [
+          "If the engine itself stays fairly steady, why does midlife feel different? The honest answer is that a few things shift at the same time. None of them is a personal failing, and most of them respond well to attention."
+        ],
+        subsections: [
+          {
+            heading: "You gradually lose muscle",
+            body: [
+              "From around your thirties onward, muscle mass tends to slowly decline unless you actively work to keep it. Because muscle is a key factor in resting metabolism, having less of it can lower the calories your body uses at rest, which the Mayo Clinic links to weight becoming harder to manage with age.",
+              "This is the single most addressable item on the list, which is why protecting muscle sits at the center of a sensible midlife plan. Our guide to <a href='/guides/protein-after-40'>protein after 40</a> covers the food side of that."
+            ],
+            callout: {
+              title: "Muscle is the lever, not the whole story",
+              body: "You cannot speed up your resting metabolism on demand, but you can protect the muscle that helps support it. That is where steady effort pays off.",
+              tone: "navy"
+            }
+          },
+          {
+            heading: "Everyday movement quietly drops",
+            body: [
+              "NEAT tends to fall in midlife as days get busier, desk-bound, and more sedentary. The Mayo Clinic notes that most people become less active as they age, and those small reductions in everyday motion add up over weeks and months.",
+              "The drop is easy to miss because it is not about skipped workouts. It is fewer steps, more sitting, and less incidental movement across an ordinary day."
+            ]
+          },
+          {
+            heading: "Hormonal shifts and menopause",
+            body: [
+              "Perimenopause and menopause can change where the body stores fat and can disrupt sleep, appetite, and energy. These shifts can make weight feel less predictable, though hormones are one factor among several rather than the whole explanation.",
+              "If this stage is part of your picture, our guide to <a href='/guides/menopause-weight-gain'>menopause weight gain</a> goes deeper, and any decision about medical options belongs with a clinician who knows your history."
+            ]
+          },
+          {
+            heading: "Sleep and stress muddy the picture",
+            body: [
+              "Short or broken sleep is associated with stronger appetite and lower energy for movement, and ongoing stress can pull eating, routine, and recovery off course. Together they can make the whole system feel more stubborn than it is.",
+              "These levers are easy to overlook, yet they often make every other habit harder. Our guides on <a href='/guides/sleep-and-weight-loss'>sleep and weight loss</a> and <a href='/guides/cortisol-and-weight-gain'>what cortisol can and cannot explain</a> offer gentle starting points."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "What actually helps",
+        body: [
+          "The encouraging part is that the most effective steps are also the most sustainable. None of them involves boosting or hacking anything. They simply support the parts of your daily energy use that you can influence."
+        ],
+        image: {
+          src: "/media/article-images/metabolism-after-40/strength-muscle-after-40.webp",
+          alt: "A woman over 40 doing light resistance training at home, focused and capable.",
+          width: 1200,
+          height: 900,
+          caption: "Protecting muscle with regular strength work supports daily energy use over time."
+        },
+        subsections: [
+          {
+            heading: "Protect your muscle with strength training",
+            body: [
+              "Resistance training is the closest thing there is to a foundation here. It helps preserve the muscle that supports your resting metabolism, your strength, and your day-to-day function. The Mayo Clinic and the Physical Activity Guidelines for Americans both point toward strength work for all major muscle groups on two or more days a week.",
+              "If lifting is new to you, or you are managing an injury, start light, focus on form, and build up slowly. A few sessions with a qualified trainer or physical therapist early on can make the whole thing safer and more enjoyable."
+            ]
+          },
+          {
+            heading: "Eat enough protein",
+            body: [
+              "Enough protein supports muscle maintenance and helps you feel full, which makes a calorie-aware plan easier to keep up. A simple way in is to anchor each meal with a clear protein source rather than counting every gram.",
+              "Whole foods can do most of the work, and protein powders are optional rather than required. Needs vary from person to person, so if you have kidney disease or another condition, check with your clinician first. Our <a href='/guides/protein-after-40'>protein after 40 guide</a> has practical examples."
+            ],
+            bullets: [
+              "Build breakfast around eggs, Greek yogurt, or a similar protein.",
+              "Add a palm-sized protein source to lunch and dinner.",
+              "Pair protein with fiber-rich vegetables, fruit, or whole grains."
+            ]
+          },
+          {
+            heading: "Move more in small ways",
+            body: [
+              "Rebuilding everyday movement is one of the highest-value things you can do, because NEAT is so responsive to small choices. Short walks after meals, taking the stairs, standing more, and running errands on foot all add up, and they are far easier to sustain than punishing routines.",
+              "A gentle target of about 150 minutes of moderate activity a week, built gradually, gives you plenty of room to start small."
+            ],
+            image: {
+              src: "/media/article-images/metabolism-after-40/daily-movement-after-40.webp",
+              alt: "A woman in her fifties taking a relaxed walk in a park, an example of everyday movement.",
+              width: 1200,
+              height: 900,
+              caption: "Small bursts of everyday movement add up and are easier to sustain than extreme routines."
+            }
+          },
+          {
+            heading: "Skip the crash diet",
+            body: [
+              "Very low-calorie plans can strip away the muscle a midlife body benefits from keeping, and they tend to be hard to repeat, so progress stalls and rebounds. A modest, livable calorie reduction almost always beats an extreme one, because the goal is something you can sustain for months rather than days.",
+              "If structure or accountability is the piece you keep missing, a well-run program can help. Our <a href='/best/best-weight-loss-programs-for-women-over-40'>comparison of weight-loss programs for women over 40</a> explains what to look for before you commit."
+            ]
+          },
+          {
+            heading: "Support sleep and stress",
+            body: [
+              "Steady sleep and realistic stress management are not side issues. They make every other habit easier to keep. Aim for consistent sleep and wake times, lower light in the evening, and a wind-down cue your body learns to recognize.",
+              "If insomnia, hot flashes, or ongoing stress keep disrupting your rest, that is worth raising with a healthcare professional rather than pushing through."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Myths worth retiring",
+        body: [
+          "A lot of metabolism marketing runs on fear and big promises. Letting go of a few common myths can save you money, time, and a fair amount of self-blame."
+        ],
+        bullets: [
+          "You cannot meaningfully speed up your resting metabolism with foods, teas, or supplements. The Mayo Clinic notes that products claiming to do so usually do not live up to their claims.",
+          "There is no broken metabolism to fix for most people. The engine is largely steady; the levers are muscle and movement.",
+          "Starvation mode is a half-truth. Eating too little can lower energy use somewhat, but it does not make weight loss impossible, and severe restriction tends to backfire.",
+          "Detoxes and resets do not change your metabolic rate. Your liver and kidneys already handle that work."
+        ],
+        callout: {
+          title: "Claim check",
+          body: "If a product promises to boost, reset, or rev up your metabolism, treat that as a marketing red flag rather than a health claim. Steady habits are less dramatic and far more reliable.",
+          tone: "navy"
+        }
+      },
+      {
+        heading: "When to talk to a healthcare professional",
+        body: [
+          "Self-directed habits help most people, but some situations deserve personalized guidance. Consider speaking with a qualified healthcare professional if you have unexplained or rapid weight changes, persistent fatigue, or other symptoms that could point to an underactive thyroid or another condition. The Mayo Clinic notes that such medical causes are uncommon, but they are real and worth ruling out.",
+          "It is also worth a conversation if you take medications that may affect weight, or if you have a history of disordered eating. A clinician who knows your full history can tailor advice safely and spare you the trial and error that wears you down."
+        ],
+        callout: {
+          title: "A simple rule of thumb",
+          body: "If something feels new, severe, or confusing, it is always reasonable to pause and check with a professional before making big changes.",
+          tone: "terracotta"
+        }
+      }
+    ],
+    faqs: [
+      {
+        question: "Does your metabolism really slow down after 40?",
+        answer:
+          "Not in the dramatic way the ads suggest. Research published in Science in 2021 found that daily energy use, adjusted for body size, stays relatively steady from about age 20 to 60, with a more gradual decline beginning later. What usually changes in midlife is muscle and daily movement, not the engine itself."
+      },
+      {
+        question: "At what age does metabolism start to slow?",
+        answer:
+          "The same research suggests a slow, steady decline tends to begin closer to age 60, at less than 1 percent a year, rather than at 40. Before that, energy use adjusted for body size is fairly stable through adulthood. Earlier changes in weight are usually about muscle loss and lower activity."
+      },
+      {
+        question: "Can you boost or speed up your metabolism after 40?",
+        answer:
+          "You cannot meaningfully speed up your resting metabolism, and products that promise to do so rarely live up to the claims. What you can influence is muscle and everyday movement. Strength training, enough protein, and more daily activity support your daily energy use far better than any booster."
+      },
+      {
+        question: "If metabolism is stable, why is it harder to lose weight after 40?",
+        answer:
+          "Because several things tend to shift at once: you gradually lose muscle, everyday movement drops, and sleep, stress, and hormonal changes can make appetite and routine less predictable. These are real, and they respond to consistent habits rather than to a metabolism fix."
+      },
+      {
+        question: "Does menopause slow your metabolism?",
+        answer:
+          "Perimenopause and menopause can change where fat is stored and can disrupt sleep and appetite, which makes weight feel less predictable. Hormones are one factor among several rather than the whole story. A plan built around strength, protein, movement, and steadier sleep still helps."
+      },
+      {
+        question: "What is the best way to support your metabolism after 40?",
+        answer:
+          "There is no single trick, but the most reliable combination is strength training at least twice a week, enough protein at each meal, more everyday movement, a modest and sustainable calorie approach, and steadier sleep. If you have unexplained symptoms, check with a clinician first."
+      }
+    ],
+    sources: [
+      {
+        label: "Daily energy expenditure through the human life course (2021)",
+        publisher: "Pontzer et al., Science",
+        url: "https://www.science.org/doi/10.1126/science.abe5017"
+      },
+      {
+        label: "Metabolism and weight loss: How you burn calories",
+        publisher: "Mayo Clinic",
+        url: "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/metabolism/art-20046508"
+      },
+      {
+        label: "Preserve your muscle mass",
+        publisher: "Harvard Health Publishing",
+        url: "https://www.health.harvard.edu/staying-healthy/preserve-your-muscle-mass"
+      },
+      {
+        label: "Exercise and physical activity",
+        publisher: "National Institute on Aging",
+        url: "https://www.nia.nih.gov/health/exercise-and-physical-activity"
+      },
+      {
+        label: "Physical Activity Guidelines for Americans, 2nd edition",
+        publisher: "U.S. Department of Health and Human Services",
+        url: "https://health.gov/our-work/nutrition-physical-activity/physical-activity-guidelines"
+      },
+      {
+        label: "Menopause weight gain: Stop the middle-age spread",
+        publisher: "Mayo Clinic",
+        url: "https://www.mayoclinic.org/healthy-lifestyle/womens-health/in-depth/menopause-weight-gain/art-20046058"
+      },
+      {
+        label: "Choosing a safe and successful weight-loss program",
+        publisher: "NIDDK",
+        url: "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program"
+      },
+      {
+        label: "Weight loss and sleep",
+        publisher: "Sleep Foundation",
+        url: "https://www.sleepfoundation.org/physical-health/weight-loss-and-sleep"
       }
     ]
   },
