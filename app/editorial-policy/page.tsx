@@ -7,7 +7,7 @@ import { Callout } from "@/components/layout/Callout";
 export const metadata: Metadata = {
   title: "Editorial Policy",
   description:
-    "The publishing standards behind Quiet Proof Wellness: accuracy, clarity, responsible health language, regular review, separation of education and advertising, and corrections.",
+    "The publishing standards behind The Heal Beacon: accuracy, clarity, responsible health language, regular review, separation of education and advertising, and corrections.",
   alternates: { canonical: "/editorial-policy" }
 };
 

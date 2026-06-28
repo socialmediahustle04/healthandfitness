@@ -7,7 +7,7 @@ import { Callout } from "@/components/layout/Callout";
 export const metadata: Metadata = {
   title: "Advertising Disclosure",
   description:
-    "How Quiet Proof Wellness handles affiliate links and advertising: commissions, cost to readers, independence of recommendations, and no guarantee of results.",
+    "How The Heal Beacon handles affiliate links and advertising: commissions, cost to readers, independence of recommendations, and no guarantee of results.",
   alternates: { canonical: "/advertising-disclosure" }
 };
 
@@ -20,7 +20,7 @@ export default function AdvertisingDisclosurePage() {
     >
       <ContentSection tone="paper" heading="We may earn commissions from links" eyebrow="The basics">
         <p className="prose-lead">
-          Quiet Proof Wellness is reader-supported. Some links on this site are
+          The Heal Beacon is reader-supported. Some links on this site are
           affiliate links, which means if you click them and make a purchase, we
           may receive a commission at no additional cost to you. These
           commissions help fund the research, writing, and maintenance of the

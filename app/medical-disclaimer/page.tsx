@@ -7,7 +7,7 @@ import { Callout } from "@/components/layout/Callout";
 export const metadata: Metadata = {
   title: "Medical Disclaimer",
   description:
-    "Quiet Proof Wellness content is for educational purposes only and is not medical advice. Always consult a qualified healthcare professional before starting diets, supplements, or exercise.",
+    "The Heal Beacon content is for educational purposes only and is not medical advice. Always consult a qualified healthcare professional before starting diets, supplements, or exercise.",
   alternates: { canonical: "/medical-disclaimer" }
 };
 
@@ -20,7 +20,7 @@ export default function MedicalDisclaimerPage() {
     >
       <ContentSection tone="paper" heading="For educational purposes only" eyebrow="The short version">
         <p className="prose-lead">
-          All content on Quiet Proof Wellness is provided for general information
+          All content on The Heal Beacon is provided for general information
           and educational purposes only. It is not medical advice, and it is not
           a substitute for care from a qualified healthcare professional.
         </p>

@@ -7,7 +7,7 @@ import { Callout } from "@/components/layout/Callout";
 export const metadata: Metadata = {
   title: "How We Review Wellness Programs and Products",
   description:
-    "How Quiet Proof Wellness evaluates weight-loss programs and supplements: research process, evidence, safety, pricing, refunds, and who a product may or may not suit.",
+    "How The Heal Beacon evaluates weight-loss programs and supplements: research process, evidence, safety, pricing, refunds, and who a product may or may not suit.",
   alternates: { canonical: "/how-we-review" }
 };
 

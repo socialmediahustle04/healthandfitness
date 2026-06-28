@@ -1,22 +1,28 @@
 import { categoryCards, latestGuides } from "@/content/homepage";
+import { site } from "@/lib/design-tokens";
 
-const siteUrl = "https://healthandfitness.com";
+const siteUrl = site.url;
 
 export function HomepageJsonLd() {
   const jsonLd = [
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      name: "Quiet Proof Wellness",
+      name: site.name,
       url: siteUrl,
-      description:
-        "Evidence-informed weight-loss guidance for women over 40."
+      description: site.description
     },
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Quiet Proof Wellness",
+      name: site.name,
       url: siteUrl,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteUrl}${site.ogImage}`,
+        width: 1200,
+        height: 630
+      },
       sameAs: []
     },
     {

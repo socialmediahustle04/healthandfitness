@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { footerLinks } from "@/content/homepage";
+import { site } from "@/lib/design-tokens";
 
 export function SiteFooter() {
   return (
@@ -7,10 +8,10 @@ export function SiteFooter() {
       <div className="container footer-grid">
         <div className="footer-brand">
           <Link className="brand-mark footer-logo" href="/">
-            <span className="brand-symbol">QP</span>
+            <span className="brand-symbol">{site.monogram}</span>
             <span>
-              <strong>Quiet Proof</strong>
-              <em>Wellness</em>
+              <strong>{site.name}</strong>
+              <em>Midlife Wellness</em>
             </span>
           </Link>
           <p>

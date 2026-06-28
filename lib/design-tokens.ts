@@ -9,8 +9,12 @@ export const colors = {
 };
 
 export const site = {
-  name: "Quiet Proof Wellness",
-  url: "https://healthandfitness.com",
+  name: "The Heal Beacon",
+  shortName: "The Heal Beacon",
+  monogram: "HB",
+  url: "https://thehealbeacon.com",
+  supportEmail: "hello@thehealbeacon.com",
+  ogImage: "/media/og-home.png",
   description:
     "Evidence-informed weight-loss guidance for women over 40."
 };

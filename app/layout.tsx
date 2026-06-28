@@ -1,26 +1,42 @@
 import type { Metadata } from "next";
+import { Nunito_Sans, Source_Serif_4 } from "next/font/google";
+import { site } from "@/lib/design-tokens";
 import "./globals.css";
 
+const bodyFont = Nunito_Sans({
+  subsets: ["latin"],
+  variable: "--font-body",
+  display: "swap"
+});
+
+const displayFont = Source_Serif_4({
+  subsets: ["latin"],
+  variable: "--font-display",
+  display: "swap"
+});
+
+const defaultTitle = "Weight Loss After 40: Evidence-Informed Guides for Women";
+const defaultDescription =
+  "Clear, practical weight-loss guidance for women over 40. Learn about metabolism, menopause, sleep, cortisol, supplements, programs, and safe next steps.";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://healthandfitness.com"),
+  metadataBase: new URL(site.url),
   title: {
-    default: "Weight Loss After 40: Evidence-Informed Guides for Women",
-    template: "%s | Quiet Proof Wellness"
+    default: defaultTitle,
+    template: `%s | ${site.name}`
   },
-  description:
-    "Clear, practical weight-loss guidance for women over 40. Learn about metabolism, menopause, sleep, cortisol, supplements, programs, and safe next steps.",
+  description: defaultDescription,
   openGraph: {
-    title: "Weight Loss After 40: Evidence-Informed Guides for Women",
-    description:
-      "Clear, practical weight-loss guidance for women over 40. Learn about metabolism, menopause, sleep, cortisol, supplements, programs, and safe next steps.",
-    url: "https://healthandfitness.com",
-    siteName: "Quiet Proof Wellness",
+    title: defaultTitle,
+    description: defaultDescription,
+    url: site.url,
+    siteName: site.name,
     images: [
       {
-        url: "/media/og-home.svg",
+        url: site.ogImage,
         width: 1200,
         height: 630,
-        alt: "Quiet Proof Wellness homepage"
+        alt: `${site.name} homepage`
       }
     ],
     locale: "en_US",
@@ -38,7 +54,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${bodyFont.variable} ${displayFont.variable}`}>
+        <a className="skip-link" href="#main-content">
+          Skip to content
+        </a>
         {children}
         <noscript>
           <style>{`.reveal{opacity:1!important;transform:none!important}`}</style>

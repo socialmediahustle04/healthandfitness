@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { navLinks } from "@/content/homepage";
+import { site } from "@/lib/design-tokens";
 
 export function HomeHeader() {
   const [condensed, setCondensed] = useState(false);
@@ -50,11 +51,11 @@ export function HomeHeader() {
           </nav>
         </div>
         <div className="nav-shell">
-          <Link className="brand-mark" href="/" aria-label="Quiet Proof Wellness home">
-            <span className="brand-symbol">QP</span>
+          <Link className="brand-mark" href="/" aria-label={`${site.name} home`}>
+            <span className="brand-symbol">{site.monogram}</span>
             <span>
-              <strong>Quiet Proof</strong>
-              <em>Wellness</em>
+              <strong>{site.name}</strong>
+              <em>Midlife Wellness</em>
             </span>
           </Link>
           <nav className="main-nav" aria-label="Main navigation">
