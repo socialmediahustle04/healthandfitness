@@ -1643,38 +1643,299 @@ export const guides: Guide[] = [
   },
   {
     slug: "weight-loss-supplements-guide",
-    medicalAbout: ["Dietary supplements", "Weight loss", "Supplement safety"],
-    title: "Weight-Loss Supplements: How to Evaluate Claims Before Buying",
+    medicalAbout: ["Dietary supplements", "Weight loss", "Supplement safety", "Dietary supplement regulation"],
+    title: "Weight-Loss Supplements: How to Judge Them Safely",
     description:
-      "A safety-first guide to reading supplement labels, checking claims, and deciding what is worth discussing with a clinician.",
+      "In the US, weight-loss supplements are not FDA-approved before sale. Here is a calm, honest way to judge any product for safety before you buy.",
     category: "Supplements",
-    readTime: "9 min read",
+    readTime: "10 min read",
     updated: "2026",
+    datePublished: "2026-06-29",
+    dateModified: "2026-06-29",
     funnel: "Safety Guide",
     related: [
       { label: "Supplements and safety", href: "/categories/supplements-safety" },
       { label: "Cortisol and weight gain", href: "/guides/cortisol-and-weight-gain" },
-      { label: "Cortisol supplement comparison", href: "/best/best-cortisol-supplements-for-weight-loss" }
+      { label: "Weight loss after 40", href: "/weight-loss-after-40" },
+      { label: "Metabolism after 40", href: "/guides/metabolism-after-40" }
+    ],
+    heroImage: {
+      src: "/media/article-images/weight-loss-supplements-guide/hero-weight-loss-supplements-guide.webp",
+      alt: "A woman in her early fifties calmly reading the label on a supplement bottle in a bright kitchen, looking thoughtful and discerning.",
+      width: 1200,
+      height: 900
+    },
+    keyTakeaways: [
+      "In the US, weight-loss supplements are not approved by the FDA for safety or effectiveness before they are sold.",
+      "The honest evidence for most weight-loss supplement ingredients is weak, limited, or mixed, and a small effect in a study is not the same as proven, safe, or right for you.",
+      "The label tells you more than the front of the bottle: check ingredient amounts, hidden proprietary blends, and stimulants.",
+      "Third-party seals like USP or NSF confirm what is in the bottle, not that a product works or is safe for you.",
+      "A clinician or pharmacist can flag interactions before you spend a cent, and the basics still matter more than any pill."
+    ],
+    lead: [
+      "The supplement aisle and the ads around it are loud, confident, and very good at making a pill sound like the answer. If you are standing there wondering what is real and what is marketing, you deserve a steady way to judge any product before you spend a thing.",
+      "This guide is that framework. It will not rank products or push you to buy. Instead, it walks through the regulatory reality, how to read a label, the ingredients people ask about most, the red flags worth pausing on, and the questions to bring to a clinician or pharmacist."
     ],
     sections: [
       {
-        heading: "Start with the claim",
+        heading: "The short answer",
         body: [
-          "Before reading a label, write down what the product is actually promising. Is it appetite support, stress support, energy, digestion, or direct fat loss?",
-          "The more dramatic the claim, the more evidence it should need. Be especially cautious with products that imply rapid results without behavior change. If you are weighing specific weight-loss products, our <a href='/best/best-weight-loss-supplements-for-women-over-40'>honest look at popular weight-loss supplements for women over 40</a> shows how to judge them without the hype."
+          "Most weight-loss supplements do very little on their own. The honest evidence for popular ingredients is generally weak, limited, or mixed, and none of them replaces the habits that actually drive results. They also are not approved by the FDA for safety or effectiveness before they are sold, so a little caution goes a long way.",
+          "That does not mean every product is a scam, only that the burden of proof sits with the label, not with the marketing. For the bigger picture on what actually helps, our <a href='/weight-loss-after-40'>complete guide to weight loss after 40</a> is the place to start."
+        ],
+        bullets: [
+          "Evidence for most weight-loss ingredients is weak, limited, or mixed.",
+          "Supplements are not FDA-approved before sale.",
+          "The label, not the marketing, is where the real information is.",
+          "No supplement replaces the basics."
         ]
       },
       {
-        heading: "Check safety before excitement",
+        heading: "Why supplements deserve extra caution",
         body: [
-          "Look for ingredient amounts, stimulant content, medication cautions, pregnancy cautions, and refund terms. If a product hides these details, that lowers trust.",
-          "Supplements can interact with medications and conditions. A clinician or pharmacist can help you check whether an ingredient is appropriate for you."
+          "Dietary supplements are regulated differently from prescription drugs. The FDA explains that under US law, companies are responsible for evaluating the safety and labeling of their own products, and supplements do not need FDA review or approval for safety or effectiveness before they go on sale. The agency generally steps in only after a product is already on the market.",
+          "That gap matters for weight-loss products in particular. The FDA has repeatedly found weight-loss products that were tainted with hidden, undeclared drug ingredients, which is not something you can see on the label. This is the main reason to slow down and evaluate before buying, rather than trusting a confident front-of-bottle promise."
+        ],
+        callout: {
+          title: "Not approved before sale",
+          body: "In the US, supplements are not reviewed or approved by the FDA for safety or effectiveness before they are sold. That is the opposite of how prescription medicines work, and it is why careful label-reading matters.",
+          tone: "navy"
+        }
+      },
+      {
+        heading: "Start with the claim",
+        body: [
+          "Before you read a single ingredient, name what the product is actually promising. Is it appetite support, more energy, a metabolism boost, or direct fat loss? Writing it down makes the next step easier, because you can ask whether the evidence and the label actually support that specific claim.",
+          "As a rule, the bigger and faster the promise, the more evidence it should need, and the more skeptical it is worth being. Claims of effortless or dramatic results are a signal to slow down, not to reach for your card."
+        ]
+      },
+      {
+        heading: "How to read a supplement label",
+        body: [
+          "The front of the bottle is marketing. The real information is on the back, in the Supplement Facts panel and the ingredient list. A few minutes there tells you more than any headline."
+        ],
+        image: {
+          src: "/media/article-images/weight-loss-supplements-guide/how-to-read-a-supplement-label.webp",
+          alt: "Editorial illustration of what to check on a supplement label: ingredient amounts, proprietary blends, stimulants, third-party testing seals, and cautions.",
+          width: 1200,
+          height: 900,
+          caption: "A quick label check, ingredient amounts, hidden proprietary blends, stimulants, and third-party seals, tells you more than the front of the bottle."
+        },
+        subsections: [
+          {
+            heading: "Ingredients and actual amounts",
+            body: [
+              "Look for each active ingredient listed with its actual amount, not just a name. An amount you cannot see is an amount you cannot evaluate, whether for effectiveness or for safety. Reputable products tend to be specific.",
+              "If the label is vague about how much of anything is inside, treat that as a reason to be more careful, not less."
+            ]
+          },
+          {
+            heading: "Proprietary blends that hide doses",
+            body: [
+              "A proprietary blend lists a group of ingredients with a single total weight, without telling you how much of each one is included. That makes it impossible to judge whether an ingredient is present in a meaningful amount or just a sprinkle for the label.",
+              "Hidden amounts are a common way to make a product look impressive while obscuring what you are actually getting. A blend is not automatically unsafe, but it does lower how much you can trust the label."
+            ]
+          },
+          {
+            heading: "Stimulants and energy ingredients",
+            body: [
+              "Many weight-loss and energy products contain caffeine or other stimulants. These can affect blood pressure, heart rhythm, anxiety, and sleep, and the caffeine in a supplement stacks on top of the coffee or tea you already drink.",
+              "If you are sensitive to stimulants, or you have blood pressure, heart, anxiety, or sleep concerns, this is worth extra attention. Our guide on <a href='/guides/sleep-and-weight-loss'>sleep and weight loss</a> covers why late-day stimulants can quietly work against you."
+            ]
+          },
+          {
+            heading: "Third-party testing seals, and what they do and do not prove",
+            body: [
+              "Some products carry a seal from an independent program such as USP or NSF. These programs check that what is on the label is actually in the product, that it was made under good manufacturing practices, and that it is free of certain contaminants.",
+              "That is genuinely useful, but it is narrow. A seal does not mean the product causes weight loss, and it does not mean the product is safe or appropriate for you specifically. It verifies contents and quality, not benefit."
+            ],
+            callout: {
+              title: "What a seal means",
+              body: "A USP or NSF seal confirms that the bottle contains what the label says, made to quality standards. It is not proof that the product works or that it is right for your health.",
+              tone: "sage"
+            }
+          }
+        ]
+      },
+      {
+        heading: "Common ingredients and what the evidence really says",
+        body: [
+          "A handful of ingredients show up again and again. Here is the honest version, kept general on purpose, since this is education rather than a dosing guide. Across the board, resources like the NIH Office of Dietary Supplements describe the evidence for weight-loss ingredients as limited or mixed, and a small effect measured in a study is not the same as proven, safe, or right for you.",
+          "Caffeine may slightly raise energy use and is a common stimulant, but evidence for meaningful, lasting weight loss is limited, and it carries the cautions noted above. Green tea extract has been studied for small effects, with mixed results, and high-dose green tea extract has been linked to rare liver problems. Glucomannan, a soluble fiber, may help you feel fuller, though evidence for weight loss is limited and it needs to be taken with enough water. Garcinia cambogia is popular, but the evidence is weak, and it has been associated with rare liver issues. None of these is a shortcut, and our guide to <a href='/guides/metabolism-after-40'>metabolism after 40</a> explains why no pill meaningfully speeds up your metabolism."
+        ],
+        callout: {
+          title: "A small effect is not proof",
+          body: "Some evidence for a small effect in a study is not the same as proven, safe, or right for you. Treat modest, mixed findings as a reason for realistic expectations, not a green light.",
+          tone: "navy"
+        }
+      },
+      {
+        heading: "Red flags that should make you pause",
+        body: [
+          "Consumer-protection agencies have seen the same tricks for years. The Federal Trade Commission notes that some weight-loss claims are so implausible they can be dismissed on sight. The flags below are reasons to pause and look closer, not proof of fraud, but several together is a strong signal to walk away."
+        ],
+        image: {
+          src: "/media/article-images/weight-loss-supplements-guide/comparing-supplement-labels.webp",
+          alt: "A woman over 50 at a table comparing two supplement labels with a notebook, evaluating claims carefully.",
+          width: 1200,
+          height: 900,
+          caption: "Comparing labels and claims side by side makes red flags easier to spot."
+        },
+        bullets: [
+          "Promises of fast or effortless loss, or claims you can lose weight no matter what or how much you eat.",
+          "Words like melt fat, miracle, or guaranteed, which describe marketing rather than evidence.",
+          "Dramatic before and after photos and glowing testimonials in place of real evidence.",
+          "Clinically proven language with no study you can actually find or read.",
+          "Proprietary blends that hide amounts, plus autoship sign-ups and fake countdown timers."
+        ],
+        callout: {
+          title: "Claim check",
+          body: "If a product promises to melt fat or guarantee results, that is a marketing claim, not a health one. The more dramatic the promise, the more evidence it should need, and the more reason to be cautious.",
+          tone: "navy"
+        }
+      },
+      {
+        heading: "Safety first: interactions, conditions, and who should be most cautious",
+        body: [
+          "Safety deserves more attention than excitement. Supplements can interact with medications and with health conditions, including blood pressure, heart, thyroid, diabetes, anxiety, and liver or kidney concerns. Stimulant-containing products warrant extra care, and more is not safer.",
+          "Some people should be especially cautious, including anyone who is pregnant or breastfeeding, anyone taking prescription medication, and anyone managing a chronic condition. When in doubt, the safest move is to ask a professional before starting, rather than after."
+        ],
+        callout: {
+          title: "Who should be most cautious",
+          body: "If you are pregnant or breastfeeding, take any medication, or manage a health condition, talk with a clinician or pharmacist before trying a weight-loss supplement. Interactions are real and not always obvious.",
+          tone: "terracotta"
+        }
+      },
+      {
+        heading: "Questions to ask before you buy",
+        body: [
+          "A short checklist can save you money and protect your health. Run a product through these before you decide, and bring anything you are unsure about to a professional."
+        ],
+        image: {
+          src: "/media/article-images/weight-loss-supplements-guide/ask-a-pharmacist-before-buying.webp",
+          alt: "A woman in her fifties talking with a pharmacist at a pharmacy counter about a supplement.",
+          width: 1200,
+          height: 900,
+          caption: "A pharmacist or clinician can flag interactions before you spend a cent."
+        },
+        bullets: [
+          "What exactly does it claim, and is that realistic?",
+          "Can I see every ingredient and its amount, or is it hidden in a blend?",
+          "Does it contain stimulants, and are those safe for me?",
+          "Is it third-party tested by a program like USP or NSF?",
+          "Could it interact with my medications or conditions?",
+          "What are the refund and cancellation terms?"
+        ]
+      },
+      {
+        heading: "Supplements are not a substitute for the basics",
+        body: [
+          "It is worth saying plainly: no supplement replaces the habits that actually support weight management. Adequate protein, strength training, daily movement, and steadier sleep do far more of the work, and for women over 40 that foundation matters more than anything on a shelf. Our guides on <a href='/guides/why-weight-loss-gets-harder-after-40'>why weight loss gets harder after 40</a>, <a href='/guides/protein-after-40'>protein after 40</a>, and <a href='/guides/sleep-and-weight-loss'>sleep and weight loss</a> cover the habits worth your energy first.",
+          "If you do want to see how this same evaluation framework looks applied to specific products, our <a href='/best/best-weight-loss-supplements-for-women-over-40'>comparison of popular weight-loss supplements for women over 40</a> walks through it without endorsing anything. Our comparison pages may use affiliate links, which never change our assessment."
+        ]
+      },
+      {
+        heading: "Myths worth retiring",
+        body: [
+          "A few persistent myths make it easier for marketing to work. Clearing them out keeps your expectations realistic."
         ],
         bullets: [
-          "Avoid proprietary blends that hide individual ingredient amounts.",
-          "Be cautious with stimulants if you have blood pressure, anxiety, sleep, or heart concerns.",
-          "Do not use supplement reviews as medical advice."
-        ]
+          "Natural does not mean safe or proven. Plenty of natural substances interact with medications or carry their own risks.",
+          "FDA registered facility is not the same as FDA approved. It does not mean the product was reviewed for safety or effectiveness.",
+          "A third-party seal is not proof a product works, only that the bottle contains what the label says.",
+          "More pills or higher doses are not safer, and they will not out-perform the basics."
+        ],
+        callout: {
+          title: "Claim check",
+          body: "Natural, registered, and clinically proven are marketing-friendly words that can mean very little. Judge a product by its label, its evidence, and a professional's input, not its adjectives.",
+          tone: "navy"
+        }
+      },
+      {
+        heading: "When to talk to a healthcare professional",
+        body: [
+          "Talking with a clinician or pharmacist before starting any weight-loss supplement is the single most protective step, especially if you take medication or manage a health condition. Bringing the actual product or a photo of the label makes that conversation quick and concrete.",
+          "Seek medical care if you notice side effects such as a racing heart, chest pain, severe digestive upset, or signs of liver trouble like yellowing skin, dark urine, or pain on the upper right side. Stop the product and check in rather than pushing through."
+        ],
+        callout: {
+          title: "A simple rule of thumb",
+          body: "If something feels off after starting a supplement, or you are unsure whether a product is safe for you, it is always reasonable to stop and check with a professional before continuing.",
+          tone: "terracotta"
+        }
+      }
+    ],
+    faqs: [
+      {
+        question: "Do weight-loss supplements actually work?",
+        answer:
+          "For most people, very little on their own. The evidence for popular weight-loss ingredients is generally weak, limited, or mixed, and none replaces the habits that drive results. A supplement may be a small addition at most, and any product promising fast or effortless weight loss is making a marketing claim rather than a health one."
+      },
+      {
+        question: "Are weight-loss supplements approved or regulated by the FDA?",
+        answer:
+          "They are regulated, but not approved before sale. Under US law, companies are responsible for the safety and labeling of their own supplements, and the FDA does not review them for safety or effectiveness before they reach the market. The agency generally acts only after a product is already being sold."
+      },
+      {
+        question: "Are weight-loss supplements safe to take?",
+        answer:
+          "Not automatically. Supplements can interact with medications and conditions, some contain stimulants, and the FDA has found certain weight-loss products tainted with hidden drug ingredients. People who are pregnant or breastfeeding, take medication, or manage a health condition should be especially cautious and check with a clinician or pharmacist first."
+      },
+      {
+        question: "Which weight-loss supplement ingredients have any evidence, and which are risky?",
+        answer:
+          "Ingredients like caffeine, green tea extract, glucomannan, and garcinia cambogia are commonly marketed, but the evidence for weight loss is generally limited or mixed. Some carry real cautions, for example high-dose green tea extract and garcinia have been linked to rare liver problems. A small effect in a study is not proof a product is safe or right for you."
+      },
+      {
+        question: "What does USP or NSF certification mean on a supplement?",
+        answer:
+          "Those independent programs verify that the product contains what its label says, was made under good manufacturing practices, and is free of certain contaminants. That is useful for quality and trust, but it does not prove the product causes weight loss or that it is safe for your particular health situation."
+      },
+      {
+        question: "What should I check before buying a weight-loss supplement?",
+        answer:
+          "Check that the claim is realistic, that every ingredient and amount is listed rather than hidden in a proprietary blend, whether it contains stimulants, whether it is third-party tested, and whether it could interact with your medications. Review the refund terms, and ask a clinician or pharmacist if you are unsure."
+      }
+    ],
+    sources: [
+      {
+        label: "Dietary supplements",
+        publisher: "U.S. Food and Drug Administration",
+        url: "https://www.fda.gov/food/dietary-supplements"
+      },
+      {
+        label: "Tainted weight loss products",
+        publisher: "U.S. Food and Drug Administration",
+        url: "https://www.fda.gov/drugs/medication-health-fraud/tainted-weight-loss-products"
+      },
+      {
+        label: "Dietary supplements for weight loss: fact sheet for consumers",
+        publisher: "NIH Office of Dietary Supplements",
+        url: "https://ods.od.nih.gov/factsheets/WeightLoss-Consumer/"
+      },
+      {
+        label: "The truth behind weight-loss ads",
+        publisher: "Federal Trade Commission",
+        url: "https://consumer.ftc.gov/articles/truth-behind-weight-loss-ads"
+      },
+      {
+        label: "Weight control",
+        publisher: "National Center for Complementary and Integrative Health",
+        url: "https://www.nccih.nih.gov/health/weight-control"
+      },
+      {
+        label: "Dietary Supplement Verification Program",
+        publisher: "U.S. Pharmacopeia (USP)",
+        url: "https://www.usp.org/verification-services/dietary-supplements-verification-program"
+      },
+      {
+        label: "Metabolism and weight loss: How you burn calories",
+        publisher: "Mayo Clinic",
+        url: "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/metabolism/art-20046508"
+      },
+      {
+        label: "Choosing a safe and successful weight-loss program",
+        publisher: "NIDDK",
+        url: "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program"
       }
     ]
   }
