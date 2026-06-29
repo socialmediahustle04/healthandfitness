@@ -1611,33 +1611,312 @@ export const guides: Guide[] = [
   },
   {
     slug: "protein-after-40",
-    medicalAbout: ["Dietary protein", "Muscle mass", "Weight loss after 40", "Nutrition"],
-    title: "Protein After 40: How It Supports Muscle, Fullness, and Progress",
+    medicalAbout: ["Dietary protein", "Muscle mass", "Weight loss after 40", "Nutrition", "Sarcopenia"],
+    title: "Protein After 40: How Much You Need and Why",
     description:
-      "A practical guide to protein for women over 40, including muscle preservation, fullness, and meal planning.",
+      "How much protein do women over 40 actually need? A calm, evidence-informed guide to muscle, fullness, sources, and per-meal amounts. No hard macros.",
     category: "Nutrition",
-    readTime: "6 min read",
+    readTime: "10 min read",
     updated: "2026",
+    datePublished: "2026-06-29",
+    dateModified: "2026-06-29",
     funnel: "Guide",
     related: [
+      { label: "Weight loss after 40", href: "/weight-loss-after-40" },
       { label: "Metabolism after 40", href: "/guides/metabolism-after-40" },
-      { label: "Meal plans", href: "/categories/meal-plans" },
-      { label: "Weight loss after 40", href: "/weight-loss-after-40" }
+      { label: "Menopause weight gain", href: "/guides/menopause-weight-gain" },
+      { label: "Why weight loss gets harder after 40", href: "/guides/why-weight-loss-gets-harder-after-40" },
+      { label: "Meal plans", href: "/categories/meal-plans" }
+    ],
+    heroImage: {
+      src: "/media/article-images/protein-after-40/hero-protein-after-40.webp",
+      alt: "A woman in her early fifties enjoying a balanced, protein-forward meal in a bright, calm kitchen.",
+      width: 1600,
+      height: 900
+    },
+    keyTakeaways: [
+      "Protein supports muscle, fullness, and recovery, and all three matter more as your body changes after 40.",
+      "The RDA of 0.8 grams per kilogram is a minimum. Many experts suggest older adults may benefit from roughly 1.0 to 1.2 grams per kilogram, and more if you are active.",
+      "Spreading protein across breakfast, lunch, and dinner tends to support muscle better than saving it all for dinner.",
+      "Whole foods can do most of the work. Protein powder is an optional convenience, not a requirement.",
+      "Protein is not a weight-loss drug, individual needs vary, and a clinician or registered dietitian can personalize your target, especially if you have kidney disease."
+    ],
+    lead: [
+      "If you keep hearing that you should eat more protein, you are in good company, and the advice is not wrong. What usually goes missing is the part that actually helps: how much you need, why it matters more now, where to get it, and whether any of the powders and shakes are worth your money.",
+      "This guide keeps things calm and practical. There are no hard macros to memorize, no shame, and no pretending protein is a magic fix. Here is what changes after 40, how much protein many experts suggest, the foods that make it easy, and how to put it together in a way that fits your real life."
     ],
     sections: [
       {
-        heading: "Protein is not only for athletes",
+        heading: "The short answer",
         body: [
-          "Protein helps support muscle maintenance, fullness, and recovery. For women over 40, it can be especially useful when paired with resistance training.",
-          "You do not need a perfect macro plan to benefit. Start by making protein visible at breakfast, lunch, and dinner."
+          "Yes, protein matters more after 40, and it is one of the simpler things you can get right. It helps protect the muscle you naturally start to lose with age, it helps you feel full, and it supports recovery from exercise and everyday wear. None of that requires a strict diet or a cupboard full of supplements.",
+          "As for how much, there is no single number for everyone. The official RDA is 0.8 grams of protein per kilogram of body weight, but that is a minimum to prevent deficiency rather than a target for staying strong. Many experts suggest older adults may benefit from somewhat more, often around 1.0 to 1.2 grams per kilogram, with active women toward the higher end. Whole foods can cover most of it, and a clinician or registered dietitian can help you find what fits. For the bigger midlife picture, start with our <a href='/weight-loss-after-40'>complete guide to weight loss after 40</a>."
+        ],
+        bullets: [
+          "Protein supports muscle, fullness, bones, and recovery.",
+          "The RDA is a floor, not a target for everyone.",
+          "Many experts suggest about 1.0 to 1.2 grams per kilogram for older adults.",
+          "Spreading it across the day tends to work better than one big serving.",
+          "Whole foods first, powders optional, and individual needs vary."
         ]
       },
       {
-        heading: "Make it practical",
+        heading: "Why protein matters more after 40",
         body: [
-          "The best protein approach is the one that fits your food preferences, digestion, budget, and cooking routine.",
-          "Whole foods can do most of the work. Protein powders can be convenient, but they are not required."
+          "Protein is having a moment in marketing, but the reason it matters after 40 is genuinely practical, not hype. A few normal changes in midlife make adequate protein more useful than it was in your twenties, and none of them is about chasing a gym-built physique.",
+          "Think of protein as one of the building blocks that helps your body hold on to what it already has: muscle, strength, and steadier energy through the day."
+        ],
+        subsections: [
+          {
+            heading: "Protecting muscle as you age",
+            body: [
+              "From your thirties onward, muscle mass tends to slowly decline unless you actively work to keep it, a gradual process researchers call sarcopenia. It is normal, but left unchecked it can chip away at your strength, your balance, and the calories your body uses at rest.",
+              "Protein supplies the raw material your body uses to maintain and rebuild muscle, and it works best paired with strength training. Harvard Health notes that preserving muscle becomes more important with age, and the food side of that is largely about getting enough protein. Our guide to <a href='/guides/metabolism-after-40'>metabolism after 40</a> explains why muscle is the lever that matters most."
+            ]
+          },
+          {
+            heading: "Protein and fullness",
+            body: [
+              "Protein is the most filling of the three macronutrients, meal for meal. Building a meal around it tends to keep you satisfied for longer, which can make a calorie-aware plan easier to stick with when appetite and cravings feel less predictable.",
+              "This is support, not magic. Protein does not burn fat or melt anything away, but feeling fuller on fewer calories is a real, practical advantage. It is one reason protein comes up so often in our guide on <a href='/guides/why-weight-loss-gets-harder-after-40'>why weight loss gets harder after 40</a>."
+            ]
+          },
+          {
+            heading: "Protein, bones, and recovery",
+            body: [
+              "Protein also plays a quieter role in bone health and recovery. Alongside calcium and vitamin D, adequate protein contributes to the framework that keeps bones strong, which is especially worth attention around perimenopause and menopause, when bone density can shift.",
+              "It also helps your body recover from exercise, illness, and the ordinary wear of a busy week. Our guide to <a href='/guides/menopause-weight-gain'>menopause weight gain</a> looks at how these midlife changes tend to overlap."
+            ]
+          }
         ]
+      },
+      {
+        heading: "How much protein do you actually need",
+        body: [
+          "This is the question almost everyone asks, and the honest answer starts with a caveat: there is no single number that fits every woman. Your needs depend on your body size, how active you are, your overall health, and your goals. With that in mind, the ranges below give you a sensible place to begin."
+        ],
+        image: {
+          src: "/media/article-images/protein-after-40/protein-across-the-day.webp",
+          alt: "Editorial illustration showing protein spread across breakfast, lunch, and dinner, with a variety of protein sources.",
+          width: 1600,
+          height: 900,
+          caption: "Spreading protein across the day, not loading it all at dinner, tends to support muscle better."
+        },
+        subsections: [
+          {
+            heading: "The RDA versus what many experts suggest for older adults",
+            body: [
+              "The Recommended Dietary Allowance for protein is 0.8 grams per kilogram of body weight per day. For a woman who weighs about 68 kilograms, or 150 pounds, that works out to roughly 54 grams a day. The key thing to understand is that the RDA is set as a minimum to prevent deficiency, not necessarily the amount that is best for staying strong as you age.",
+              "This is where the guidance gets more interesting. An international expert group known as PROT-AGE reviewed the evidence and suggested that healthy older adults may benefit from more, in the range of about 1.0 to 1.2 grams per kilogram per day, with higher intakes for those who are active or doing resistance training. These are population-level ranges rather than rules, and your own needs may sit higher or lower. A registered dietitian can help you turn a range into a target that fits your body and your health."
+            ],
+            callout: {
+              title: "Ranges, not rigid rules",
+              body: "Protein targets are best seen as ranges from expert bodies, not strict rules for everyone. Your needs depend on your body, activity, health, and goals. If you want a number tailored to you, a registered dietitian can personalize it safely.",
+              tone: "sage"
+            }
+          },
+          {
+            heading: "Spreading protein across the day",
+            body: [
+              "Where many of us go wrong is timing, not the total. A lot of people eat very little protein at breakfast, a bit more at lunch, and then load most of it onto dinner. Research summarized by Harvard Health suggests your body may use protein more effectively for muscle when you spread it across the day rather than saving it for one big evening serving.",
+              "A practical aim is a clear protein source at each meal, very roughly in the region of 20 to 30 grams, though you do not need to weigh anything or track it to the gram. Simply making protein show up at breakfast, lunch, and dinner does most of the work."
+            ]
+          },
+          {
+            heading: "Protein and strength training",
+            body: [
+              "Protein and strength training are a team. Protein provides the building blocks, and resistance training provides the signal that tells your body to keep and build muscle. One without the other does far less than the two together.",
+              "The Physical Activity Guidelines for Americans recommend muscle-strengthening activity on two or more days a week. You also do not need a perfect post-workout window, despite what the supplement ads imply. Getting enough protein across the day matters more than the exact minute you eat it."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Best protein sources after 40",
+        body: [
+          "Here is the reassuring part: you have plenty of options, and you do not have to like or eat any single food. A mix of animal and plant sources tends to make hitting your protein target both easier and more enjoyable, and it brings other nutrients along for the ride. For meal ideas built around this, see our <a href='/categories/meal-plans'>meal plans</a>."
+        ],
+        image: {
+          src: "/media/article-images/protein-after-40/protein-sources-after-40.webp",
+          alt: "A spread of whole-food protein sources including eggs, fish, Greek yogurt, beans, lentils, and tofu.",
+          width: 1200,
+          height: 900,
+          caption: "A mix of animal and plant sources makes hitting your protein target easier and more enjoyable."
+        },
+        subsections: [
+          {
+            heading: "Animal sources",
+            body: [
+              "Animal foods tend to be complete proteins, meaning they contain all the essential amino acids your body cannot make on its own. Practical, accessible choices include eggs, Greek yogurt, cottage cheese, milk, fish, chicken, and turkey.",
+              "It is worth thinking about the whole package, not just the protein number. Harvard Health suggests favoring sources that are lower in saturated fat, such as fish, poultry, low-fat dairy, and eggs, over heavily processed meats."
+            ],
+            bullets: [
+              "Eggs and egg whites",
+              "Greek yogurt, cottage cheese, and milk",
+              "Fish such as salmon, tuna, and trout",
+              "Chicken, turkey, and lean cuts of meat"
+            ]
+          },
+          {
+            heading: "Plant sources",
+            body: [
+              "Plant proteins are a strong choice too, whether you eat little meat or simply want more variety. Beans, lentils, chickpeas, tofu, tempeh, edamame, nuts, seeds, and whole grains all contribute, and they bring fiber that supports fullness and digestion.",
+              "Most individual plant foods are lower in one or more amino acids, but eating a range of them across the day easily fills the gaps. You do not need to combine specific foods at the same meal to get what you need."
+            ],
+            bullets: [
+              "Beans, lentils, and chickpeas",
+              "Tofu, tempeh, and edamame",
+              "Nuts, seeds, and nut butters",
+              "Whole grains such as oats and quinoa"
+            ]
+          },
+          {
+            heading: "A simple \u201cmake protein visible at every meal\u201d approach",
+            body: [
+              "If counting grams feels like a chore, skip it. The easiest habit is simply to make protein visible at every meal, so you can see a clear source on the plate before you think about anything else.",
+              "Anchor breakfast with eggs, Greek yogurt, or cottage cheese. Add a palm-sized portion of protein to lunch and dinner. Then build the rest of the plate around fiber-rich vegetables, fruit, and whole grains. That one habit, repeated, tends to get most women into a comfortable range without any tracking."
+            ],
+            image: {
+              src: "/media/article-images/protein-after-40/protein-forward-breakfast.webp",
+              alt: "A simple protein-forward breakfast of Greek yogurt, eggs, and berries on a calm kitchen table.",
+              width: 1200,
+              height: 900,
+              caption: "Anchoring breakfast with protein is one of the easiest places to start."
+            }
+          }
+        ]
+      },
+      {
+        heading: "Do you need protein powder?",
+        body: [
+          "Short answer: probably not, though it can help in specific situations. Protein powder is a convenient food product, not a medicine and not a requirement. If you already get enough protein from meals, adding a powder will not unlock extra benefits.",
+          "Where it can earn its place is when meals keep falling short, when your appetite is low, or when mornings are too rushed for a real breakfast. In those cases a simple shake can fill a gap. Whole foods are generally the better default, because they bring fiber, vitamins, and minerals that a powder does not. If you do choose one, look for a short ingredient list, limited added sugar, and ideally third-party testing such as NSF Certified for Sport. Keep in mind that supplements are not approved by the FDA for safety or effectiveness before they are sold, so the label deserves a careful read."
+        ],
+        callout: {
+          title: "Powder is a convenience, not a requirement",
+          body: "If you get enough protein from food, you do not need a powder. If meals keep falling short, a simple protein powder can help fill the gap. It is a food product, not a magic fix, so treat it as a backup rather than the plan.",
+          tone: "navy"
+        }
+      },
+      {
+        heading: "Safety and who should check with a clinician first",
+        body: [
+          "For most healthy adults, eating protein in the ranges experts suggest is well tolerated and not a cause for worry. The picture is different if your kidneys are not working as well as they should. People with kidney disease or reduced kidney function may need to limit protein, and the PROT-AGE expert group specifically flags severe kidney disease as an exception to its higher-protein guidance.",
+          "A few other situations call for tailored advice too, including some liver conditions and certain metabolic disorders. If you are not sure how your kidneys are doing, a simple blood test ordered by your clinician can clarify it. The goal here is not to scare you off protein, but to make sure your target fits your health."
+        ],
+        callout: {
+          title: "If you have kidney disease or are unsure",
+          body: "If you have kidney disease or reduced kidney function, talk with a clinician before raising your protein intake. If you are not sure about your kidney health, a simple blood test can help. For healthy adults, protein within expert ranges is generally not a kidney risk.",
+          tone: "terracotta"
+        }
+      },
+      {
+        heading: "Myths worth retiring",
+        body: [
+          "Protein attracts a lot of confident claims in both directions, from fear to hype. Clearing out a few of the common ones makes it easier to keep your expectations realistic."
+        ],
+        bullets: [
+          "Protein wrecks your kidneys. For healthy adults, protein within expert ranges is not associated with kidney damage. The real caution applies to people who already have kidney disease.",
+          "More is always better. Beyond a certain point, extra protein does not add much for muscle and can crowd out other nutritious foods. More is not harmful for most healthy people, but it is not automatically better either.",
+          "Only athletes need extra protein. Age-related muscle loss makes adequate protein important for everyone after 40, whether or not you think of yourself as athletic.",
+          "You have to eat meat to get enough. Plenty of women meet their needs with a mix of dairy, eggs, beans, soy foods, nuts, and grains."
+        ],
+        callout: {
+          title: "Claim check",
+          body: "Higher protein does not damage healthy kidneys, more is not automatically better, and you do not have to be an athlete or a meat eater to benefit. If you have kidney disease, check with a clinician first.",
+          tone: "navy"
+        }
+      },
+      {
+        heading: "When to talk to a healthcare professional or dietitian",
+        body: [
+          "Most women can adjust their protein with simple food swaps and no special oversight. Some situations are worth a conversation with a qualified professional, though. Consider checking in if you have kidney disease or are unsure about your kidney health, if you have a medical condition or take medication that affects your diet, if you are recovering from surgery or illness, or if you simply want a target tailored to you.",
+          "A registered dietitian is the ideal person for this. They can translate the general ranges into a plan that fits your body, your preferences, and your health, without the guesswork."
+        ],
+        callout: {
+          title: "A simple rule of thumb",
+          body: "If you have a health condition, take medication, or are unsure how much protein is right for you, a registered dietitian or clinician can personalize your target safely. There is no need to figure it out alone.",
+          tone: "terracotta"
+        }
+      }
+    ],
+    faqs: [
+      {
+        question: "How much protein does a woman over 40 need?",
+        answer:
+          "Needs vary with body size, activity, and health, so there is no single number. The RDA is 0.8 grams per kilogram of body weight, but many experts, including the PROT-AGE group, suggest older adults may benefit from about 1.0 to 1.2 grams per kilogram, and more if they are active. A practical starting point is a clear protein source at each meal, and a registered dietitian can personalize your target."
+      },
+      {
+        question: "Is too much protein bad for your kidneys?",
+        answer:
+          "For healthy adults, protein intakes within expert-recommended ranges are not associated with kidney damage. The concern applies to people who already have kidney disease or reduced kidney function, who may need to limit protein and should talk with a clinician before increasing it. If you are unsure about your kidney health, a simple blood test can clarify it."
+      },
+      {
+        question: "What are the best protein sources for women over 40?",
+        answer:
+          "A mix of animal and plant sources works well. Eggs, Greek yogurt, cottage cheese, fish, chicken, beans, lentils, tofu, nuts, and whole grains are all practical choices. Whole foods generally offer more fullness and nutrients than supplements, and variety makes it easier to hit your target without getting bored."
+      },
+      {
+        question: "Do you need protein powder after 40?",
+        answer:
+          "Protein powder is optional, not required. For most women, whole foods can do the job. A powder can help fill a gap when meals fall short, appetite is low, or mornings are rushed, but it is a convenience rather than a necessity. If you use one, read the label and look for third-party testing, since supplements are not FDA-approved before sale."
+      },
+      {
+        question: "Does protein help with weight loss after 40?",
+        answer:
+          "Protein supports fullness and helps preserve muscle while you lose weight, which tends to make a calorie-aware plan easier to sustain. It is not a weight-loss drug and does not burn fat on its own. Results come from the overall picture of eating, activity, sleep, and consistency, with protein as one helpful piece."
+      },
+      {
+        question: "How should you spread protein across the day?",
+        answer:
+          "Research suggests your body uses protein more effectively for muscle when you spread it across meals rather than saving most of it for dinner. A simple aim is a clear protein source at breakfast, lunch, and dinner, very roughly 20 to 30 grams each, without needing to weigh or track every gram."
+      }
+    ],
+    sources: [
+      {
+        label: "How much protein do you need every day?",
+        publisher: "Harvard Health Publishing",
+        url: "https://www.health.harvard.edu/blog/how-much-protein-do-you-need-every-day-201506188096"
+      },
+      {
+        label: "Preserve your muscle mass",
+        publisher: "Harvard Health Publishing",
+        url: "https://www.health.harvard.edu/staying-healthy/preserve-your-muscle-mass"
+      },
+      {
+        label: "When it comes to protein, how much is too much?",
+        publisher: "Harvard Health Publishing",
+        url: "https://www.health.harvard.edu/nutrition/when-it-comes-to-protein-how-much-is-too-much"
+      },
+      {
+        label: "Evidence-based recommendations for optimal dietary protein intake in older people (PROT-AGE Study Group, 2013)",
+        publisher: "Bauer et al., Journal of the American Medical Directors Association",
+        url: "https://pubmed.ncbi.nlm.nih.gov/23867520/"
+      },
+      {
+        label: "Protein: how much do you need?",
+        publisher: "Academy of Nutrition and Dietetics",
+        url: "https://www.eatright.org/health/essential-nutrients/protein"
+      },
+      {
+        label: "High-protein diets: Are they safe?",
+        publisher: "Mayo Clinic",
+        url: "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/high-protein-diets/faq-20058207"
+      },
+      {
+        label: "How much protein you need",
+        publisher: "Cleveland Clinic",
+        url: "https://health.clevelandclinic.org/how-much-protein-you-need/"
+      },
+      {
+        label: "Is protein bad for your kidneys?",
+        publisher: "Cleveland Clinic",
+        url: "https://health.clevelandclinic.org/planning-to-start-a-high-protein-diet-check-with-your-kidneys-first"
+      },
+      {
+        label: "Exercise and physical activity",
+        publisher: "National Institute on Aging",
+        url: "https://www.nia.nih.gov/health/exercise-and-physical-activity"
       }
     ]
   },
