@@ -69,6 +69,18 @@ export type CategoryHub = {
   commercialHref?: string;
 };
 
+export type BestProduct = {
+  name: string;
+  oneLineSummary: string;
+  whoItIsFor: string;
+  pros: string[];
+  considerations: string[];
+  keyIngredientsOrApproach: string;
+  priceNote: string;
+  refundNote: string;
+  affiliateSlug: string;
+};
+
 export type BestPage = {
   slug: string;
   title: string;
@@ -77,6 +89,10 @@ export type BestPage = {
   disclosure: string;
   criteria: string[];
   sections: ContentSectionBlock[];
+  lead?: string[];
+  products?: BestProduct[];
+  faqs?: FaqItem[];
+  sources?: SourceItem[];
 };
 
 export const pillarGuide: Guide = {
@@ -1473,7 +1489,7 @@ export const guides: Guide[] = [
         heading: "A careful note on cortisol and stress supplements",
         body: [
           "Products marketed for cortisol and belly fat tend to use confident language around a genuinely complex topic. Some ingredients, such as ashwagandha, may have limited evidence for general stress support, but that is not the same as proven fat loss, and feeling a little calmer is not the same as changing your body composition.",
-          "Supplements can also interact with medications and health conditions, and in the United States the FDA does not verify these claims before products go on sale. If you are weighing these products, it is worth talking with a clinician or pharmacist first, and reading labels with a skeptical eye. Our <a href='/guides/weight-loss-supplements-guide'>supplement safety guide</a> walks through how to evaluate claims, and if you are comparing specific options, our <a href='/best/best-cortisol-supplements-for-weight-loss'>overview of cortisol supplements</a> explains how to judge them carefully rather than recommending any product."
+          "Supplements can also interact with medications and health conditions, and in the United States the FDA does not verify these claims before products go on sale. If you are weighing these products, it is worth talking with a clinician or pharmacist first, and reading labels with a skeptical eye. Our <a href='/guides/weight-loss-supplements-guide'>supplement safety guide</a> walks through how to evaluate claims, our <a href='/best/best-weight-loss-supplements-for-women-over-40'>honest look at popular weight-loss supplements for women over 40</a> shows how to judge the wider category, and if you are comparing specific options, our <a href='/best/best-cortisol-supplements-for-weight-loss'>overview of cortisol supplements</a> explains how to judge them carefully rather than recommending any product."
         ],
         callout: {
           title: "Check before you buy",
@@ -1645,7 +1661,7 @@ export const guides: Guide[] = [
         heading: "Start with the claim",
         body: [
           "Before reading a label, write down what the product is actually promising. Is it appetite support, stress support, energy, digestion, or direct fat loss?",
-          "The more dramatic the claim, the more evidence it should need. Be especially cautious with products that imply rapid results without behavior change."
+          "The more dramatic the claim, the more evidence it should need. Be especially cautious with products that imply rapid results without behavior change. If you are weighing specific weight-loss products, our <a href='/best/best-weight-loss-supplements-for-women-over-40'>honest look at popular weight-loss supplements for women over 40</a> shows how to judge them without the hype."
         ]
       },
       {
@@ -1789,6 +1805,180 @@ export const bestPages: BestPage[] = [
           "The most useful products disclose ingredient amounts, avoid dramatic promises, provide clear cautions, and make cancellation or refunds easy to understand.",
           "Products with hidden blends, aggressive belly-fat claims, or unclear safety information will be rated more cautiously."
         ]
+      }
+    ]
+  },
+  {
+    slug: "best-weight-loss-supplements-for-women-over-40",
+    title: "Best Weight-Loss Supplements for Women Over 40",
+    description:
+      "An honest, non-hype look at popular weight-loss supplements for women over 40, how to judge them, and why habits and a clinician come first.",
+    intro:
+      "A calm, honest look at popular weight-loss supplements, how to evaluate them, and where they realistically fit. Supplements are not a substitute for habits or medical care, and none is a guaranteed or magic solution.",
+    disclosure:
+      "Some links on this page are affiliate links, which means we may earn a commission if you buy through them, at no extra cost to you. This does not change our assessment. We do not endorse these products, they are not approved by the FDA for weight loss, and this page is educational rather than medical advice. Please talk with a clinician or pharmacist before starting any supplement, especially if you take medication or have a health condition.",
+    criteria: [
+      "Claim realism",
+      "Ingredient transparency",
+      "Stimulant and safety notes",
+      "Refund and subscription clarity",
+      "Suitability for women over 40"
+    ],
+    lead: [
+      "If you have searched for a weight-loss supplement, you have seen the promises: melt fat overnight, reset your metabolism, no diet required. Those claims are exactly why this page exists. The goal here is not to sell you a pill, but to help you judge these products with clear eyes.",
+      "Treat this as an evaluation, not an endorsement. Supplements are not a substitute for the habits that actually move the needle, like adequate protein, strength training, daily movement, and steadier sleep, and none of them is a guaranteed or magic solution. For most women over 40, that foundation matters far more than any product. Our <a href='/weight-loss-after-40'>guide to weight loss after 40</a> covers it in full.",
+      "If you still want to weigh your options, here is how we look at the popular ones, what to check before buying, and the safety questions worth raising with a clinician or pharmacist first."
+    ],
+    products: [
+      {
+        name: "Venus Factor",
+        oneLineSummary:
+          "A weight-loss program and supplement line positioned specifically for women, with a metabolism angle.",
+        whoItIsFor:
+          "Women who want a structured, women-focused approach and are comparing options rather than hoping for a quick fix.",
+        pros: [
+          "Marketed and designed with women in mind, rather than as a generic formula.",
+          "Bundles guidance and structure alongside the supplement, which some people find easier to follow.",
+          "Widely available through an established checkout and refund process."
+        ],
+        considerations: [
+          "The marketing leans heavily on transformation language, so it helps to read the claims skeptically.",
+          "Independent evidence for the specific blend is limited, and results vary from person to person.",
+          "It is often sold inside an upsell funnel, so check exactly what is included before you pay."
+        ],
+        keyIngredientsOrApproach:
+          "It positions itself around supporting metabolism and appetite for women. Specific ingredients and amounts can change between versions, so read the current label and check anything that may interact with your own health needs.",
+        priceNote:
+          "Pricing changes often and is usually shown as a one-time purchase with optional add-ons. Confirm the current price, and whether you are buying a single product or a bundle, on the official page before checkout.",
+        refundNote:
+          "Sold through ClickBank, which applies a standard money-back policy. Confirm the current refund window and terms at checkout rather than assuming.",
+        affiliateSlug: "venus-factor"
+      },
+      {
+        name: "Java Burn 2.0",
+        oneLineSummary:
+          "A flavorless powder you add to coffee, marketed around supporting metabolism.",
+        whoItIsFor:
+          "Coffee drinkers who like the idea of a simple add-on and understand it is a small lever, not a solution on its own.",
+        pros: [
+          "Easy to use, since it is designed to dissolve into a drink you may already have each morning.",
+          "Marketed as flavorless, so it does not change your coffee much.",
+          "Sold through an established checkout with a refund process."
+        ],
+        considerations: [
+          "It is added to coffee, so the caffeine in your coffee still counts toward your daily total, which matters if you are sensitive to stimulants.",
+          "The formula is a proprietary blend, so exact amounts may not be fully disclosed.",
+          "Independent evidence is limited, and the marketing can overstate what a powder can do."
+        ],
+        keyIngredientsOrApproach:
+          "A powder intended to be mixed into coffee, typically built around plant extracts and nutrients in a proprietary blend. Because you take it with coffee, keep your overall caffeine intake in mind, particularly if you have blood pressure, anxiety, sleep, or heart concerns.",
+        priceNote:
+          "Usually sold in multi-pouch bundles at a one-time price that changes with promotions. Confirm the current cost per pouch and what ships before you buy.",
+        refundNote:
+          "Sold through ClickBank with a standard money-back policy. Check the current refund window and terms at checkout.",
+        affiliateSlug: "java-burn"
+      },
+      {
+        name: "Liv Pure",
+        oneLineSummary:
+          "Capsules marketed around liver function and metabolism for weight management.",
+        whoItIsFor:
+          "People drawn to the liver-and-metabolism angle who are willing to research ingredients and check with a clinician first.",
+        pros: [
+          "Simple capsule format with a clear daily routine.",
+          "Marketed around a specific mechanism, which makes its claims easier to question and compare.",
+          "Sold through an established checkout with a refund process."
+        ],
+        considerations: [
+          "Liver-support marketing is a common red-flag area, so the claims deserve extra skepticism.",
+          "The formula is a proprietary blend, so exact ingredient amounts may be unclear.",
+          "Independent evidence is limited, and a supplement that targets the liver is especially worth discussing with a clinician if you have a liver condition or take medication."
+        ],
+        keyIngredientsOrApproach:
+          "Capsules built around a proprietary blend marketed for liver support and metabolism. Because the liver processes both medications and supplements, this is one to raise with a clinician or pharmacist before trying, particularly if you take other medicines.",
+        priceNote:
+          "Typically sold in multi-bottle bundles at a one-time price that varies with promotions. Confirm the current price and quantity on the official page.",
+        refundNote:
+          "Sold through ClickBank with a standard money-back policy. Confirm the current refund window and terms at checkout.",
+        affiliateSlug: "liv-pure"
+      }
+    ],
+    sections: [
+      {
+        heading: "Supplements are not the foundation",
+        body: [
+          "It is worth saying plainly: no supplement on this page, or anywhere else, is a substitute for the habits that actually support weight management. Protein at each meal, strength training, daily movement, and steadier sleep do far more of the work, and they cost nothing.",
+          "If you want a place to start that does not involve buying anything, our <a href='/weight-loss-after-40'>weight loss after 40 guide</a> is the pillar, and our guides on <a href='/guides/metabolism-after-40'>metabolism after 40</a>, <a href='/guides/protein-after-40'>protein after 40</a>, and <a href='/guides/sleep-and-weight-loss'>sleep and weight loss</a> cover the highest-value habits. A supplement, at most, is a small addition on top of that foundation, not a replacement for it."
+        ],
+        callout: {
+          title: "Talk to a clinician or pharmacist",
+          body: "Supplements can interact with medications and health conditions, and they are not approved by the FDA for weight loss. Before starting anything, check with a qualified healthcare professional or pharmacist who knows your history.",
+          tone: "terracotta"
+        }
+      }
+    ],
+    faqs: [
+      {
+        question: "Do weight-loss supplements actually work?",
+        answer:
+          "For most people, the honest answer is that they do little on their own. Independent evidence for popular weight-loss supplements is generally limited or mixed, and none replaces the habits that drive results. A supplement may be a small addition at most, not a solution, and any product promising dramatic or effortless results is making a marketing claim rather than a health one."
+      },
+      {
+        question: "Are these supplements approved by the FDA?",
+        answer:
+          "No. The FDA does not approve dietary supplements for weight loss, and manufacturers are responsible for their own safety and labeling before products reach the market. That means claims are not verified in advance, so it is worth reading labels carefully and treating bold promises with caution."
+      },
+      {
+        question: "Are weight-loss supplements safe to take with my medications?",
+        answer:
+          "Not necessarily. Supplements can interact with medications and existing health conditions, and some ingredients affect blood pressure, sleep, or heart rate. The safest step is to talk with a clinician or pharmacist who knows your full history before starting anything, rather than assuming a product is fine because it is sold over the counter."
+      },
+      {
+        question: "What should I check before buying a weight-loss supplement?",
+        answer:
+          "Look for realistic claims, a transparent ingredient list with amounts rather than a hidden proprietary blend, clear stimulant and safety notes, and an easy-to-understand refund and cancellation policy. Be cautious with subscriptions and upsell funnels, and avoid products that promise to melt fat or reset your metabolism."
+      },
+      {
+        question: "Are weight-loss supplements a good option for women over 40?",
+        answer:
+          "Weight management can feel less predictable after 40, but that is usually about muscle, hormones, sleep, and activity rather than a missing supplement. The most reliable approach is to build the habits first. If you still want to try a product, treat it as a minor add-on, keep your expectations modest, and check with a clinician first."
+      }
+    ],
+    sources: [
+      {
+        label: "Dietary supplements",
+        publisher: "U.S. Food and Drug Administration",
+        url: "https://www.fda.gov/food/dietary-supplements"
+      },
+      {
+        label: "Tainted weight loss products",
+        publisher: "U.S. Food and Drug Administration",
+        url: "https://www.fda.gov/drugs/medication-health-fraud/tainted-weight-loss-products"
+      },
+      {
+        label: "Dietary supplements for weight loss: fact sheet for consumers",
+        publisher: "NIH Office of Dietary Supplements",
+        url: "https://ods.od.nih.gov/factsheets/WeightLoss-Consumer/"
+      },
+      {
+        label: "The truth behind weight-loss ads",
+        publisher: "Federal Trade Commission",
+        url: "https://consumer.ftc.gov/articles/truth-behind-weight-loss-ads"
+      },
+      {
+        label: "Metabolism and weight loss: How you burn calories",
+        publisher: "Mayo Clinic",
+        url: "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/metabolism/art-20046508"
+      },
+      {
+        label: "Weight control",
+        publisher: "National Center for Complementary and Integrative Health",
+        url: "https://www.nccih.nih.gov/health/weight-control"
+      },
+      {
+        label: "Choosing a safe and successful weight-loss program",
+        publisher: "NIDDK",
+        url: "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program"
       }
     ]
   }
