@@ -1297,38 +1297,299 @@ export const guides: Guide[] = [
   },
   {
     slug: "cortisol-and-weight-gain",
-    medicalAbout: ["Cortisol", "Stress", "Weight gain", "Dietary supplements"],
-    title: "Cortisol and Weight Gain: What Stress Can and Cannot Explain",
+    medicalAbout: ["Cortisol", "Stress", "Weight gain", "Dietary supplements", "Cushing syndrome"],
+    title: "Cortisol and Weight Gain: What Stress Really Does",
     description:
-      "A grounded look at cortisol, stress, appetite, sleep, belly fat claims, and supplement caution.",
+      "Cortisol is not the enemy, and no supplement resets it. Here is what stress really does to your weight, what it does not, and what helps.",
     category: "Stress",
-    readTime: "6 min read",
+    readTime: "9 min read",
     updated: "2026",
+    datePublished: "2026-06-29",
+    dateModified: "2026-06-29",
     funnel: "Safety Guide",
     related: [
       { label: "Sleep and weight loss", href: "/guides/sleep-and-weight-loss" },
-      { label: "Supplement safety", href: "/guides/weight-loss-supplements-guide" },
-      { label: "Cortisol supplement picks", href: "/best/best-cortisol-supplements-for-weight-loss" }
+      { label: "Menopause weight gain", href: "/guides/menopause-weight-gain" },
+      { label: "Weight loss after 40", href: "/weight-loss-after-40" },
+      { label: "Supplement safety guide", href: "/guides/weight-loss-supplements-guide" }
+    ],
+    heroImage: {
+      src: "/media/article-images/cortisol-and-weight-gain/hero-cortisol-and-weight-gain.webp",
+      alt: "A woman in her early fifties taking a calm, grounding moment with a cup of tea near a sunlit window, looking relaxed.",
+      width: 1600,
+      height: 900
+    },
+    keyTakeaways: [
+      "Cortisol is a normal, necessary hormone, not a villain, and it follows a daily rhythm.",
+      "Chronic stress can contribute to weight gain, mostly through eating, sleep, activity, and alcohol, rather than a direct fat-storage switch.",
+      "There is no supplement that resets cortisol or melts belly fat, and cortisol belly claims are marketing.",
+      "A genuine cortisol disorder, Cushing syndrome, is uncommon and is diagnosed and treated by a clinician.",
+      "Steady habits like sleep, movement, and calmer routines help more than any cortisol product."
+    ],
+    lead: [
+      "If you have scrolled past one more ad blaming your belly on cortisol, you are not alone. Cortisol gets named as the villain behind midlife weight everywhere you look, usually right before something is offered for sale.",
+      "The calmer truth is more useful, and a lot less alarming. Here is what cortisol actually is, what stress can and cannot do to your weight, why the cortisol belly fix claims are marketing, and what genuinely helps."
     ],
     sections: [
       {
-        heading: "Cortisol is not a villain",
+        heading: "The short answer",
         body: [
-          "Cortisol is a normal hormone involved in stress response, energy, and daily rhythm. The internet often turns it into a simple villain, especially around belly fat.",
-          "Stress can influence eating, sleep, cravings, alcohol use, movement, and recovery. Those pathways may matter more than a single hormone number."
+          "Cortisol does not directly pile fat onto your stomach. It is a normal hormone that helps run your body every day. Ongoing stress can contribute to weight gain, but mostly in indirect ways, by nudging how you eat, sleep, move, and recover, rather than by flipping a fat-storage switch.",
+          "There is also no supplement that resets cortisol or melts belly fat. If you want the bigger picture on midlife weight, our <a href='/weight-loss-after-40'>complete guide to weight loss after 40</a> puts these pieces together."
+        ],
+        bullets: [
+          "Cortisol is a necessary hormone, not a villain.",
+          "Stress affects weight mainly through behavior, not a direct fat switch.",
+          "Short-term stress and normal cortisol swings are not the problem.",
+          "No supplement resets cortisol or targets belly fat.",
+          "Steady habits help more than any cortisol product."
         ]
       },
       {
-        heading: "Be careful with cortisol supplement claims",
+        heading: "What cortisol actually is",
         body: [
-          "Supplements marketed for cortisol and belly fat often use confident language around a complex topic. Some ingredients may have limited evidence for stress support, but that is not the same as proven fat loss.",
-          "Check medication interactions and health conditions before using stress or sleep supplements."
+          "Cortisol is a hormone made by your adrenal glands, and it does far more than respond to stress. The Cleveland Clinic describes it as a hormone that helps regulate how your body uses blood sugar for energy, calms inflammation, supports blood pressure, and helps run your sleep and wake cycle.",
+          "It also follows a daily rhythm. For most people cortisol is higher in the morning, which helps you wake and get going, and lower in the evening as you wind down. Your body keeps it in balance through a feedback loop between the brain and the adrenal glands. When you face a stressful moment, cortisol rises to give you quick energy, which is normal and protective in short bursts."
+        ],
+        callout: {
+          title: "Cortisol is not the enemy",
+          body: "A normal stress response is healthy and necessary. The goal is not to eliminate cortisol, which you could not and would not want to do, but to support steadier routines around it.",
+          tone: "sage"
+        }
+      },
+      {
+        heading: "Can stress and cortisol cause weight gain?",
+        body: [
+          "The honest answer is nuanced. Ongoing stress can be associated with weight gain, but usually through the habits it disrupts rather than cortisol acting on its own. Short bursts of stress and the normal daily rise and fall of cortisol are not what drives midlife weight change.",
+          "Persistently high cortisol from a medical condition is a separate and uncommon situation, which we cover later. For most people, stress is one factor among several, and it tends to work alongside sleep, movement, and eating rather than overriding them. Our guide on <a href='/guides/why-weight-loss-gets-harder-after-40'>why weight loss gets harder after 40</a> shows how these factors stack up."
+        ]
+      },
+      {
+        heading: "How stress actually influences weight",
+        body: [
+          "When stress affects your weight, it usually does so through everyday behavior. Seeing the real pathways makes it easier to focus on what helps, instead of chasing a hormone number."
+        ],
+        image: {
+          src: "/media/article-images/cortisol-and-weight-gain/stress-weight-pathways.webp",
+          alt: "Editorial illustration of how stress can influence weight through eating, sleep, lower movement, and recovery, rather than cortisol acting alone.",
+          width: 1600,
+          height: 900,
+          caption: "Stress tends to affect weight indirectly, through eating, sleep, movement, and recovery, more than through cortisol acting on its own."
+        },
+        subsections: [
+          {
+            heading: "Eating and cravings under stress",
+            body: [
+              "Stress can increase appetite and pull your choices toward higher-calorie, comforting foods. The American Psychological Association notes that stress is linked with changes in eating, and for many people that shows up as more snacking or larger portions during hard stretches.",
+              "This is about reward and routine more than a fat switch. Keeping meals anchored with protein and fiber can steady appetite on a tough day, as our <a href='/guides/protein-after-40'>protein after 40 guide</a> explains."
+            ]
+          },
+          {
+            heading: "Sleep disruption",
+            body: [
+              "Stress and a busy mind often shorten and fragment sleep, and poor sleep is associated with more hunger and lower energy the next day. The two feed each other, since worry disrupts sleep and tiredness makes stress harder to handle.",
+              "Because sleep is such a lever here, it is worth its own attention. Our guide on <a href='/guides/sleep-and-weight-loss'>sleep and weight loss</a> goes into the how and why."
+            ]
+          },
+          {
+            heading: "Less movement and more sedentary time",
+            body: [
+              "When you are stressed or depleted, it is natural to move less, sit more, and skip the walk or workout you planned. Those small reductions in daily activity add up quietly over weeks.",
+              "Noticing the dip is the first step, because everyday movement is one of the easier things to rebuild gently."
+            ]
+          },
+          {
+            heading: "Alcohol and recovery",
+            body: [
+              "Stress can increase alcohol use for some people, and alcohol can disrupt sleep and recovery, which loops back into appetite and energy. Slower recovery from a stressful period can also make it harder to keep up supportive habits.",
+              "None of this means you have failed. It means the lever worth pulling is the routine around the stress, not a single hormone."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "The \u201ccortisol belly fat\u201d claim, examined",
+        body: [
+          "There is a small kernel of truth that marketing stretches a long way. A genuine cortisol-excess disorder can cause weight gain around the face and abdomen, so cortisol and belly fat are connected in that specific medical context. The Cleveland Clinic explains that long-term high cortisol is usually Cushing syndrome, which is caused by long-term high-dose steroid medicines or by tumors, not by everyday stress.",
+          "That condition is uncommon, and it is diagnosed and treated by a clinician. Most midlife belly changes have more to do with menopause, muscle loss, sleep, and overall habits than with cortisol. Our guides on <a href='/guides/menopause-weight-gain'>menopause weight gain</a> and <a href='/guides/metabolism-after-40'>metabolism after 40</a> cover what actually shifts. So when an ad blames your waistline on cortisol and offers a fix, it is borrowing a rare medical fact to sell a product for ordinary stress."
         ],
         callout: {
           title: "Claim check",
-          body: "Avoid products that promise to flatten your stomach by fixing cortisol. That is a marketing shortcut, not a responsible health claim.",
+          body: "There is no cortisol belly fix and no way to spot-reduce fat from your stomach. A product that promises to flatten your belly by fixing cortisol is making a marketing claim, not a health one.",
           tone: "navy"
         }
+      },
+      {
+        heading: "What actually helps: managing stress in realistic ways",
+        body: [
+          "The most effective steps are calm and repeatable, and they support the parts of the picture you can actually influence. None of them involves resetting a hormone."
+        ],
+        subsections: [
+          {
+            heading: "Sleep and a consistent routine",
+            body: [
+              "Steady sleep and predictable daily rhythms support a calmer stress response and make the next day's choices easier. Consistent sleep and wake times tend to help more than the occasional early night.",
+              "If stress is keeping you up, our guide on <a href='/guides/sleep-and-weight-loss'>sleep and weight loss</a> has a gentle wind-down plan to borrow from."
+            ]
+          },
+          {
+            heading: "Movement and walking",
+            body: [
+              "Regular, gentle activity is one of the most reliable ways to ease stress and support your weight, without intense routines. A daily walk is enough to start, and it pairs well with everything else here.",
+              "The goal is something you can repeat on an ordinary week, not a punishing program you abandon after a rough patch."
+            ],
+            image: {
+              src: "/media/article-images/cortisol-and-weight-gain/stress-management-routine.webp",
+              alt: "A woman over 50 taking a relaxed walk outdoors as a simple, realistic way to manage stress.",
+              width: 1200,
+              height: 900,
+              caption: "Simple, repeatable habits like a daily walk tend to help more than any single cortisol product."
+            }
+          },
+          {
+            heading: "Protein, fiber, and steady meals",
+            body: [
+              "Balanced, regular meals help steady your appetite and energy, which makes stress eating less likely. Anchoring each meal with a protein source and plenty of fiber tends to keep you fuller and calmer between meals.",
+              "You do not need a perfect plan. A predictable rhythm of meals is often the most calming change of all."
+            ]
+          },
+          {
+            heading: "Calming practices that fit real life",
+            body: [
+              "Slow breathing, a few minutes outdoors, and time with people you trust can all gently ease the stress response. The American Psychological Association points to simple, regular stress-management habits rather than dramatic fixes.",
+              "The best practice is the one you will actually repeat, so pick something small and forgiving rather than an ambitious routine you dread."
+            ],
+            image: {
+              src: "/media/article-images/cortisol-and-weight-gain/calming-practice-after-40.webp",
+              alt: "A calm moment of slow breathing or quiet time by a window, suggesting a simple stress-relief practice.",
+              width: 1200,
+              height: 900,
+              caption: "A few minutes of slow breathing or quiet time can gently ease the stress response."
+            }
+          }
+        ]
+      },
+      {
+        heading: "A careful note on cortisol and stress supplements",
+        body: [
+          "Products marketed for cortisol and belly fat tend to use confident language around a genuinely complex topic. Some ingredients, such as ashwagandha, may have limited evidence for general stress support, but that is not the same as proven fat loss, and feeling a little calmer is not the same as changing your body composition.",
+          "Supplements can also interact with medications and health conditions, and in the United States the FDA does not verify these claims before products go on sale. If you are weighing these products, it is worth talking with a clinician or pharmacist first, and reading labels with a skeptical eye. Our <a href='/guides/weight-loss-supplements-guide'>supplement safety guide</a> walks through how to evaluate claims, and if you are comparing specific options, our <a href='/best/best-cortisol-supplements-for-weight-loss'>overview of cortisol supplements</a> explains how to judge them carefully rather than recommending any product."
+        ],
+        callout: {
+          title: "Check before you buy",
+          body: "Talk with a qualified healthcare professional or pharmacist before starting any stress, sleep, or cortisol supplement, especially if you take medication or have a health condition.",
+          tone: "terracotta"
+        }
+      },
+      {
+        heading: "When cortisol is a medical issue",
+        body: [
+          "Sometimes high cortisol does reflect a real medical condition. The main one is Cushing syndrome, which the Cleveland Clinic and NIDDK describe as uncommon and usually caused by long-term high-dose steroid medicines or by tumors. Possible signs include weight gain in the face and midsection, a rounder face, purple stretch marks, easy bruising, muscle weakness in the arms and thighs, high blood sugar, and high blood pressure.",
+          "Low cortisol, called adrenal insufficiency, also exists and can cause fatigue and other symptoms. These are medical conditions that need proper evaluation and treatment, not a supplement. If this describes you, that is a conversation for a clinician who can run the right tests."
+        ]
+      },
+      {
+        heading: "Myths worth retiring",
+        body: [
+          "The cortisol space is full of confident claims. Letting go of a few keeps your expectations realistic and your money in your pocket."
+        ],
+        bullets: [
+          "You cannot reset or detox your cortisol with a supplement, tea, or cleanse. Your body already regulates it through a finely tuned system.",
+          "There is no cortisol belly fix, and there is no way to spot-reduce fat from your stomach.",
+          "Cortisol is not a villain. A normal stress response is healthy, and the aim is steadier routines, not zero cortisol.",
+          "Lowering stress can genuinely help your wellbeing and your habits, but on its own it is not a guaranteed weight-loss method."
+        ],
+        callout: {
+          title: "Claim check",
+          body: "If a product promises to reset your cortisol or melt belly fat, treat that as a marketing red flag. Calmer routines help by making good days easier, not by erasing a hormone.",
+          tone: "navy"
+        }
+      },
+      {
+        heading: "When to talk to a healthcare professional",
+        body: [
+          "Steady habits help most people, but some situations deserve professional input. Consider speaking with a qualified healthcare professional if you have signs that could suggest a cortisol disorder, such as those listed above, unexplained or rapid weight change, or stress that feels constant and unmanageable.",
+          "It is also wise to check in before starting any stress or cortisol supplement, especially if you take medication or have a health condition. A clinician who knows your history can rule things out and point you toward help that fits."
+        ],
+        callout: {
+          title: "A simple rule of thumb",
+          body: "If something feels new, severe, or constant, it is always reasonable to pause and check with a professional before trying to fix it on your own.",
+          tone: "terracotta"
+        }
+      }
+    ],
+    faqs: [
+      {
+        question: "Does cortisol cause weight gain?",
+        answer:
+          "Not directly for most people. Cortisol is a normal hormone, and short-term stress is not the problem. Ongoing stress can contribute to weight gain mainly through eating, sleep, lower activity, and alcohol. Persistently high cortisol from a medical condition is a separate and uncommon situation."
+      },
+      {
+        question: "Can stress cause belly fat?",
+        answer:
+          "Stress can influence where and how much weight you carry, but mostly through behavior rather than a direct effect on belly fat. A genuine cortisol-excess disorder can cause central weight gain, but it is uncommon. Midlife belly changes are more often related to menopause, muscle loss, and overall habits."
+      },
+      {
+        question: "What is cortisol belly, and is it real?",
+        answer:
+          "Cortisol belly is a marketing phrase more than a medical one. A real cortisol disorder, Cushing syndrome, can cause weight gain around the face and abdomen, but it is uncommon and is caused by long-term steroid medicines or tumors, not everyday stress. There is no supplement that targets a cortisol belly."
+      },
+      {
+        question: "Do cortisol supplements help with weight loss?",
+        answer:
+          "There is no good evidence that cortisol supplements cause weight loss. Some ingredients such as ashwagandha may have limited evidence for general stress support, but that is not the same as fat loss. Supplements can interact with medications, so talk with a clinician or pharmacist before trying one."
+      },
+      {
+        question: "How can you lower stress and cortisol naturally?",
+        answer:
+          "Steady habits help most: consistent sleep, regular gentle movement like walking, balanced meals with protein and fiber, and simple calming practices such as slow breathing or time outdoors. These support a calmer stress response without any product, and they are easier to keep when they are realistic."
+      },
+      {
+        question: "When is high cortisol a medical problem?",
+        answer:
+          "When it is persistent and tied to a condition such as Cushing syndrome, which is uncommon and usually caused by long-term high-dose steroids or tumors. Signs can include weight gain in the face and midsection, purple stretch marks, muscle weakness, high blood sugar, and high blood pressure. See a clinician for evaluation."
+      }
+    ],
+    sources: [
+      {
+        label: "Cortisol: what it is, function, and levels",
+        publisher: "Cleveland Clinic",
+        url: "https://my.clevelandclinic.org/health/articles/22187-cortisol"
+      },
+      {
+        label: "Cushing's syndrome",
+        publisher: "NIDDK",
+        url: "https://www.niddk.nih.gov/health-information/endocrine-diseases/cushings-syndrome"
+      },
+      {
+        label: "Chronic stress puts your health at risk",
+        publisher: "Mayo Clinic",
+        url: "https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress/art-20046037"
+      },
+      {
+        label: "Metabolism and weight loss: How you burn calories",
+        publisher: "Mayo Clinic",
+        url: "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/metabolism/art-20046508"
+      },
+      {
+        label: "Stress effects on the body",
+        publisher: "American Psychological Association",
+        url: "https://www.apa.org/topics/stress/body"
+      },
+      {
+        label: "Understanding the stress response",
+        publisher: "Harvard Health Publishing",
+        url: "https://www.health.harvard.edu/staying-healthy/understanding-the-stress-response"
+      },
+      {
+        label: "Adrenal hormones",
+        publisher: "Endocrine Society",
+        url: "https://www.endocrine.org/patient-engagement/endocrine-library/hormones-and-endocrine-function/adrenal-hormones"
+      },
+      {
+        label: "Weight loss and sleep",
+        publisher: "Sleep Foundation",
+        url: "https://www.sleepfoundation.org/physical-health/weight-loss-and-sleep"
       }
     ]
   },
