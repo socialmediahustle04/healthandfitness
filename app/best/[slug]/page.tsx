@@ -28,12 +28,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
+function Prose({ paragraphs }: { paragraphs: string[] }) {
+  return (
+    <>
+      {paragraphs.map((paragraph, index) => (
+        <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
+      ))}
+    </>
+  );
+}
+
 export default async function BestPage({ params }: PageProps) {
   const { slug } = await params;
   const page = getBestPage(slug);
   if (!page) notFound();
   const url = `${site.url}/best/${page.slug}`;
-  const jsonLd = [
+
+  const jsonLd: Record<string, unknown>[] = [
     {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -70,6 +81,35 @@ export default async function BestPage({ params }: PageProps) {
       ]
     }
   ];
+
+  if (page.products && page.products.length > 0) {
+    jsonLd.push({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: page.title,
+      itemListElement: page.products.map((product, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: product.name,
+        url: `${site.url}/go/${product.affiliateSlug}`
+      }))
+    });
+  }
+
+  if (page.faqs && page.faqs.length > 0) {
+    jsonLd.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: page.faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer
+        }
+      }))
+    });
+  }
 
   return (
     <>
@@ -109,6 +149,12 @@ export default async function BestPage({ params }: PageProps) {
                   <p>{page.disclosure}</p>
                 </Callout>
 
+                {page.lead && page.lead.length > 0 && (
+                  <div className="article-lead">
+                    <Prose paragraphs={page.lead} />
+                  </div>
+                )}
+
                 <section className="article-section">
                   <h2>What we evaluate</h2>
                   <div className="criteria-list">
@@ -118,12 +164,69 @@ export default async function BestPage({ params }: PageProps) {
                   </div>
                 </section>
 
+                {page.products && page.products.length > 0 && (
+                  <section className="article-section" aria-label="Products compared">
+                    <h2>The options, compared</h2>
+                    <div className="product-list">
+                      {page.products.map((product) => (
+                        <article className="product-card" key={product.affiliateSlug}>
+                          <h3>{product.name}</h3>
+                          <p className="product-summary">{product.oneLineSummary}</p>
+                          <p className="product-meta">
+                            <span className="product-meta-label">Who it may suit</span>
+                            {product.whoItIsFor}
+                          </p>
+
+                          <div className="product-columns">
+                            <div>
+                              <p className="product-list-label">Pros</p>
+                              <ul className="prose-list">
+                                {product.pros.map((pro) => (
+                                  <li key={pro}>{pro}</li>
+                                ))}
+                              </ul>
+                            </div>
+                            <div>
+                              <p className="product-list-label">Considerations</p>
+                              <ul className="prose-list">
+                                {product.considerations.map((con) => (
+                                  <li key={con}>{con}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          </div>
+
+                          <p className="product-meta">
+                            <span className="product-meta-label">Ingredients and approach</span>
+                            {product.keyIngredientsOrApproach}
+                          </p>
+                          <p className="product-meta">
+                            <span className="product-meta-label">Price</span>
+                            {product.priceNote}
+                          </p>
+                          <p className="product-meta">
+                            <span className="product-meta-label">Refunds</span>
+                            {product.refundNote}
+                          </p>
+
+                          <a
+                            className="product-cta"
+                            href={`/go/${product.affiliateSlug}`}
+                            target="_blank"
+                            rel="sponsored nofollow noopener"
+                          >
+                            Check the official {product.name} page
+                          </a>
+                        </article>
+                      ))}
+                    </div>
+                  </section>
+                )}
+
                 {page.sections.map((section) => (
                   <section className="article-section" key={section.heading}>
                     <h2>{section.heading}</h2>
-                    {section.body.map((paragraph) => (
-                      <p key={paragraph}>{paragraph}</p>
-                    ))}
+                    <Prose paragraphs={section.body} />
                     {section.callout && (
                       <Callout title={section.callout.title} tone={section.callout.tone ?? "sage"}>
                         <p>{section.callout.body}</p>
@@ -131,6 +234,40 @@ export default async function BestPage({ params }: PageProps) {
                     )}
                   </section>
                 ))}
+
+                {page.faqs && page.faqs.length > 0 && (
+                  <section className="article-section article-faq" aria-labelledby="best-faq-title">
+                    <h2 id="best-faq-title">Frequently asked questions</h2>
+                    <dl>
+                      {page.faqs.map((faq) => (
+                        <div className="faq-item" key={faq.question}>
+                          <dt>{faq.question}</dt>
+                          <dd>{faq.answer}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  </section>
+                )}
+
+                {page.sources && page.sources.length > 0 && (
+                  <section className="article-section article-sources" aria-labelledby="best-sources-title">
+                    <h2 id="best-sources-title">Sources</h2>
+                    <p className="article-sources-note">
+                      We reference reputable health and consumer-protection
+                      organizations. Links open in a new tab.
+                    </p>
+                    <ul>
+                      {page.sources.map((source) => (
+                        <li key={source.url}>
+                          <a href={source.url} target="_blank" rel="noopener noreferrer">
+                            {source.label}
+                          </a>
+                          <span className="source-publisher">{source.publisher}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+                )}
               </RevealOnScroll>
 
               <aside className="article-aside">
